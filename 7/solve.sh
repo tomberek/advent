@@ -1,10 +1,9 @@
 # BEGIN rule(s)
 {
-	arr[1] = $2
-	arr[2] = $8
-	data[arr[1]] = (arr[1] in data) ? data[arr[1]] " " arr[2] : arr[2]
-	datab[arr[2]] = (arr[2] in datab) ? datab[arr[2]] " " arr[1] : arr[1]
-	print arr[1] ":-:" data[arr[1]]
+	data[$2] = ($2 in data) ? data[$2] " " $8 : $8
+	data[$2] = ($2 in data) ? data[$2] " " $8 : $8
+	datab[$8] = ($8 in datab) ? datab[$8] " " $2 : $2
+	print $2 ":-:" data[$2]
 }
 
 END {
@@ -15,7 +14,6 @@ END {
 
 END {
 	$0 = alphabet
-	delete completed
 	result = ""
 	t = 0
 	while (length(result) < 26) {
