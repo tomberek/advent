@@ -2,7 +2,7 @@
 @load "ordchr"
 @load "rwarray"
 @load "/nix/store/bn25s9fbvdyxfgl8c22xnr35jfzyf1n6-gawkextlib-unstable/lib/json.so"
-function printa(source, level){
+function printa(source, level,count){
     printf "%s%s\n", level, "{"
     level = level "\t"
     for (i in source) {
@@ -69,6 +69,12 @@ function readfile(file,     tmp, save_rs)
     return tmp
 }
 
+function abs(x){
+    if(x < 0){
+        return -x
+    }
+    return x
+}
 function round(x,   ival, aval, fraction)
 {
    ival = int(x)    # integer part, int() truncates
@@ -92,4 +98,13 @@ function round(x,   ival, aval, fraction)
       else
          return ival
    }
+}
+function clamp(x,x_min,x_max){
+    if(x < x_min){
+        return x_min
+    }
+    if(x > x_max){
+        return x_max
+    }
+    return x
 }

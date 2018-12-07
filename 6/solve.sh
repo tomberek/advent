@@ -29,24 +29,9 @@ match($0, /([0-9]*), ([0-9]*)/, arr) {
     i_max = arr[1] > i_max ? arr[1] : i_max
     j_max = arr[2] > j_max ? arr[2] : j_max
 }
-function clamp(x,x_min,x_max){
-    if(x < x_min){
-        return x_min
-    }
-    if(x > x_max){
-        return x_max
-    }
-    return x
-}
-function abs(x){
-    if(x < 0){
-        return -x
-    }
-    return x
-}
 # Switch to END to write the proper intermediate output
-/asdf/{
-    for(dist=1;dist<76;dist++){
+END{
+    for(dist=1;dist<10;dist++){
         for(item in items){
             
             box_i_min = items[item]["i"] - dist
@@ -125,6 +110,7 @@ END {
     
     sum = 0
     for (j=j_min; j<=j_max; j++) {
+        printf "\n"
         for (i=i_min; i<=i_max; i++) {
             if( i in data && j in data[i] && data[i][j] != 0) {
                 c_p = int(data[i][j] / 7)
