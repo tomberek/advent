@@ -31,22 +31,22 @@ function copy_array(dest, source,   i, count)
     }
     return count
 }
-function join(array, start, end, sep,    result, i)
+function join(_array, _start, _end, _sep,    _result, _i)
 {
-    if (sep == "")
-       sep = " "
-    else if (sep == SUBSEP) # magic value
-       sep = ""
-    result = array[start]
-    for (i = start + 1; i <= end; i++)
-        result = result sep array[i]
-    return result
+    if (_sep == "")
+       _sep = " "
+    else if (_sep == SUBSEP) # magic value
+       _sep = ""
+    _result = _array[_start]
+    for (_i = _start + 1; _i <= _end; _i++)
+        _result = _result _sep _array[_i]
+    return _result
 }
-function rewind(    i)
+function rewind(    _i)
 {
     # shift remaining arguments up
-    for (i = ARGC; i > ARGIND; i--)
-        ARGV[i] = ARGV[i-1]
+    for (_i = ARGC; _i > ARGIND; _i--)
+        ARGV[_i] = ARGV[_i-1]
 
     # make sure gawk knows to keep going
     ARGC++
