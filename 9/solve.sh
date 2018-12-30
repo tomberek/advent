@@ -13,11 +13,14 @@
 	}
 	player = 0
 	current = 0
-	while (t++ <= $2 * 1) {
+	while (t++ <= $2 ) {
 		if (NR == 1) {
 			print_table(t - 1)
 		}
 		player = (player++ % players) + 1
+		if (t % 100000 == 0) {
+			print t
+		}
 		if (t % 23 == 0 && t > 0) {
 			for (i = 1; i <= 8; i++) {
 				current = prev[current]
@@ -30,7 +33,7 @@
 			delete prev[removed]
 			delete nex[removed]
 			scores[player] += t + removed
-			current_marble[t] = current = after_removed
+			#current_marble[t] = current = after_removed
 		} else {
 			before_add = nex[current]
 			after_add = nex[before_add]
@@ -38,7 +41,7 @@
 			nex[t] = after_add
 			prev[t] = before_add
 			prev[after_add] = t
-			current_marble[t] = current = t
+			#current_marble[t] = current = t
 		}
 	}
 	find_score()

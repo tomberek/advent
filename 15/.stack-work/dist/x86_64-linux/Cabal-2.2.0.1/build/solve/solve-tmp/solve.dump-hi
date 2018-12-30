@@ -1,0 +1,2758 @@
+
+==================== FINAL INTERFACE ====================
+2018-12-20 16:17:36.726260347 UTC
+
+interface main:Main 8044
+  interface hash: 505cf561f0a343eecdf0df02f5c6f065
+  ABI hash: ca52c64bb8af37a2d220d19c64caa002
+  export-list hash: fab52493d65ba9460f99a9a78cb13e97
+  orphan hash: 2346c107d675f6084aa99c3e6ae2e96c
+  flag hash: 7811644643203333d2f45cd27eef3f8b
+  opt_hash: 14e536840aca4e889cad654e6f9b79c1
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  sig of: Nothing
+  used TH splices: True
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: HUnit-1.6.0.0 QuickCheck-2.11.3
+                      StateVar-1.1.1.1 adjunctions-4.4 ansi-terminal-0.8.2 array-0.5.2.0
+                      base-4.11.1.0 base-orphans-0.7 bifunctors-5.5.3 binary-0.8.5.1
+                      bytestring-0.10.8.2 call-stack-0.1.0 clock-0.7.2 colour-2.3.4
+                      comonad-5.0.4 containers-0.5.11.0 contravariant-1.4.1
+                      deepseq-1.4.3.0 directory-1.3.1.5 distributive-0.5.3
+                      exceptions-0.10.0 filepath-1.4.2 free-5.0.2 ghc-boot-th-8.4.4
+                      ghc-prim-0.5.2.0 hashable-1.2.7.0 hspec-2.5.5 hspec-core-2.5.5
+                      hspec-expectations-0.8.2 ilist-0.3.1.0 integer-gmp-1.0.2.0
+                      kan-extensions-5.2 lens-4.16.1 mtl-2.2.2 pretty-1.1.3.6
+                      primitive-0.6.3.0 process-1.6.3.0 profunctors-5.2.2
+                      quickcheck-io-0.2.0 random-1.1 reflection-2.1.4 say-0.1.0.1
+                      semigroupoids-5.2.2 set-extra-1.4.1 setenv-0.1.1.3 stm-2.4.5.1
+                      syb-0.7 tagged-0.8.5 template-haskell-2.13.0.0 text-1.2.3.1
+                      tf-random-0.5 th-abstraction-0.2.8.0 time-1.8.0.2
+                      transformers-0.5.5.0 transformers-base-0.4.5.2
+                      transformers-compat-0.6.2 unix-2.7.2.2 unordered-containers-0.2.9.0
+                      vector-0.12.0.2
+orphans: reflection-2.1.4:Data.Reflection
+         vector-0.12.0.2:Data.Vector.Unboxed
+         vector-0.12.0.2:Data.Vector.Fusion.Bundle
+         hashable-1.2.7.0:Data.Hashable.Generic text-1.2.3.1:Data.Text.Lazy
+         colour-2.3.4:Data.Colour quickcheck-io-0.2.0:Test.QuickCheck.IO
+         time-1.8.0.2:Data.Time.Format.Parse
+         time-1.8.0.2:Data.Time.LocalTime.Internal.ZonedTime
+         time-1.8.0.2:Data.Time.LocalTime.Internal.LocalTime
+         time-1.8.0.2:Data.Time.Calendar.Gregorian
+         stm-2.4.5.1:Control.Monad.STM text-1.2.3.1:Data.Text
+         binary-0.8.5.1:Data.Binary.Generic text-1.2.3.1:Data.Text.Show
+         bytestring-0.10.8.2:Data.ByteString.Builder
+         syb-0.7:Data.Generics.Instances
+         transformers-0.5.5.0:Control.Monad.Trans.Error
+         base-4.11.1.0:GHC.Float base-4.11.1.0:GHC.Base
+family instance modules: adjunctions-4.4:Data.Functor.Rep
+                         base-4.11.1.0:Control.Applicative base-4.11.1.0:Data.Complex
+                         base-4.11.1.0:Data.Functor.Compose base-4.11.1.0:Data.Functor.Const
+                         base-4.11.1.0:Data.Functor.Identity
+                         base-4.11.1.0:Data.Functor.Product base-4.11.1.0:Data.Functor.Sum
+                         base-4.11.1.0:Data.Monoid base-4.11.1.0:Data.Semigroup
+                         base-4.11.1.0:Data.Semigroup.Internal base-4.11.1.0:Data.Version
+                         base-4.11.1.0:Data.Void base-4.11.1.0:GHC.Exts
+                         base-4.11.1.0:GHC.Generics base-4.11.1.0:GHC.IO.Exception
+                         bifunctors-5.5.3:Data.Bifunctor.Biff
+                         bifunctors-5.5.3:Data.Bifunctor.Clown
+                         bifunctors-5.5.3:Data.Bifunctor.Fix
+                         bifunctors-5.5.3:Data.Bifunctor.Flip
+                         bifunctors-5.5.3:Data.Bifunctor.Join
+                         bifunctors-5.5.3:Data.Bifunctor.Joker
+                         bifunctors-5.5.3:Data.Bifunctor.Product
+                         bifunctors-5.5.3:Data.Bifunctor.Sum
+                         bifunctors-5.5.3:Data.Bifunctor.Tannen
+                         bifunctors-5.5.3:Data.Bifunctor.Wrapped clock-0.7.2:System.Clock
+                         containers-0.5.11.0:Data.IntMap.Internal
+                         containers-0.5.11.0:Data.IntSet.Internal
+                         containers-0.5.11.0:Data.Map.Internal
+                         containers-0.5.11.0:Data.Sequence.Internal
+                         containers-0.5.11.0:Data.Set.Internal containers-0.5.11.0:Data.Tree
+                         free-5.0.2:Control.Comonad.Cofree
+                         free-5.0.2:Control.Comonad.Trans.Cofree
+                         free-5.0.2:Control.Monad.Free free-5.0.2:Control.Monad.Trans.Free
+                         ghc-boot-th-8.4.4:GHC.ForeignSrcLang.Type
+                         ghc-boot-th-8.4.4:GHC.LanguageExtensions.Type
+                         hspec-core-2.5.5:Test.Hspec.Core.Example
+                         kan-extensions-5.2:Data.Functor.Day
+                         kan-extensions-5.2:Data.Functor.Yoneda lens-4.16.1:Control.Lens.At
+                         lens-4.16.1:Control.Lens.Internal.Indexed
+                         lens-4.16.1:Control.Lens.Reified lens-4.16.1:Control.Lens.Tuple
+                         lens-4.16.1:Control.Lens.Wrapped lens-4.16.1:Control.Lens.Zoom
+                         pretty-1.1.3.6:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.6:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.3.0:Control.Monad.Primitive
+                         primitive-0.6.3.0:Data.Primitive.Array
+                         primitive-0.6.3.0:Data.Primitive.ByteArray
+                         profunctors-5.2.2:Data.Profunctor.Composition
+                         profunctors-5.2.2:Data.Profunctor.Rep tagged-0.8.5:Data.Tagged
+                         template-haskell-2.13.0.0:Language.Haskell.TH.Syntax
+                         text-1.2.3.1:Data.Text text-1.2.3.1:Data.Text.Lazy
+                         th-abstraction-0.2.8.0:Language.Haskell.TH.Datatype
+                         unordered-containers-0.2.9.0:Data.HashMap.Base
+                         unordered-containers-0.2.9.0:Data.HashSet
+                         vector-0.12.0.2:Data.Vector vector-0.12.0.2:Data.Vector.Primitive
+                         vector-0.12.0.2:Data.Vector.Storable
+                         vector-0.12.0.2:Data.Vector.Unboxed
+                         vector-0.12.0.2:Data.Vector.Unboxed.Base
+import  -/  base-4.11.1.0:Control.Applicative 55d9b3a7491623b0362290e162d67308
+import  -/  base-4.11.1.0:Control.Arrow ce43199b5356a11ee2a8317f0ec30aee
+import  -/  base-4.11.1.0:Control.Monad c5f960c67d822497578bffbd3e4c01cf
+import  -/  base-4.11.1.0:Control.Monad.IO.Class 96109c36cb3c919872278540487fa39e
+import  -/  base-4.11.1.0:Data.Char 3e89818e2b8ef1a2cc5393163484da72
+import  -/  base-4.11.1.0:Data.Either 39d922b371c4c52d426e9ee66de8371a
+import  -/  base-4.11.1.0:Data.Foldable 8ed35c38958063956af33c935ea03444
+import  -/  base-4.11.1.0:Data.Functor f522c3501272159820fd6f242510732f
+import  -/  base-4.11.1.0:Data.Functor.Identity 9430dcaadd71c129eeb5ca7b963c9b54
+import  -/  base-4.11.1.0:Data.List 83dc843e47bfc0c5af51e19c6f3476d5
+import  -/  base-4.11.1.0:Data.Maybe 409c3da2b142470b68be39ce1d97a9f7
+import  -/  base-4.11.1.0:Data.OldList 1b35aa3c6805ff7c8887a35a866fe006
+import  -/  base-4.11.1.0:Data.Tuple 3af66f3ac61ed95ba8a3a3f68ebc5003
+import  -/  base-4.11.1.0:Debug.Trace ec3b3fe30e7dee9ae775eb1dae78f9d5
+import  -/  base-4.11.1.0:GHC.Base 604111500e81281298777e721c75643b
+import  -/  base-4.11.1.0:GHC.Err 5e26aa744981f14e0f1e4d29c44ac52e
+import  -/  base-4.11.1.0:GHC.List 1e4357702d8d00cded0703bd293e50e8
+import  -/  base-4.11.1.0:GHC.Num 8e54b26dce4495382dc4b50cf36ab754
+import  -/  base-4.11.1.0:GHC.Show 73be67392447c974f19c3befd83c46c0
+import  -/  base-4.11.1.0:Prelude 0750c25585e2b797cd78291d423d39dd
+import  -/  base-4.11.1.0:System.IO 40b9aff18a55c99eb253f9a43ff9b627
+import  -/  containers-0.5.11.0:Data.Map f51b9cf04edd738eb6d014be576b3403
+import  -/  containers-0.5.11.0:Data.Map.Internal e02d23495520de11b8e9f3c9c93a4d11
+import  -/  containers-0.5.11.0:Data.Set 7d3c64a641be4cacbcd8119445bab919
+import  -/  containers-0.5.11.0:Data.Set.Internal 7c23d64c612d25581166e736f62b7377
+import  -/  ghc-prim-0.5.2.0:GHC.Classes 122abfcd7450c6c11602933c9ca5f80d
+import  -/  ghc-prim-0.5.2.0:GHC.Types d9b3023de7feae4a5308d643da5543f7
+import  -/  hspec-2.5.5:Test.Hspec 38d54284efb2dc78db91250f8f0f857a
+import  -/  hspec-core-2.5.5:Test.Hspec.Core.Runner 8c4d3045dd8749859c85bb3897274003
+import  -/  hspec-core-2.5.5:Test.Hspec.Core.Spec ee8ed8a75602ff899d0d8b6ae1216d76
+import  -/  hspec-expectations-0.8.2:Test.Hspec.Expectations 713f0c8581412c4b3ae306dbada3ec4b
+import  -/  ilist-0.3.1.0:Data.List.Index 0606d530ac22858e77653d5bdce252b8
+import  -/  lens-4.16.1:Control.Lens 203d0ffb1964628d3453c7b83c9977a4
+import  -/  lens-4.16.1:Control.Lens.Getter 106c60cc3cab41366765fc719225aded
+import  -/  lens-4.16.1:Control.Lens.TH bf2eec1ebb9cdd3c1a9bca9d620dd960
+import  -/  lens-4.16.1:Control.Lens.Type 2ad845334fc106fb19651d0da1128784
+import  -/  mtl-2.2.2:Control.Monad.Reader a496a2f5c2c54feee0ad154b4fe8533d
+import  -/  mtl-2.2.2:Control.Monad.Reader.Class a5ac59953d953ab8532b5c11f5e8e0b0
+import  -/  process-1.6.3.0:System.Process 9c46b1d4a600c4f7ade422dbe94d755f
+import  -/  say-0.1.0.1:Say 74c7c541fcf2013f6788926e1cda182d
+import  -/  set-extra-1.4.1:Data.Set.Extra c8687319eeb20fea19ba366832f982a2
+import  -/  stm-2.4.5.1:Control.Concurrent.STM 0dd34c54515ec28f37ab6d6104eb0e05
+import  -/  transformers-0.5.5.0:Control.Monad.Trans.Reader 42962052353a5a0f766912058b765b5d
+import  -/  vector-0.12.0.2:Data.Vector e846f7f4d7fa76c8c26baa9d12d2fefc
+d38b6076660b5295e8cce5e2f82f67d5
+  $fEqSpecies :: GHC.Classes.Eq Main.Species
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Species Main.$fEqSpecies_$c== Main.$fEqSpecies_$c/= -}
+d38b6076660b5295e8cce5e2f82f67d5
+  $fEqSpecies_$c/= :: Main.Species -> Main.Species -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: Main.Species) (y :: Main.Species) ->
+                 case x of wild {
+                   Main.E
+                   -> case y of wild1 {
+                        Main.E -> GHC.Types.False Main.G -> GHC.Types.True }
+                   Main.G
+                   -> case y of wild1 {
+                        Main.E -> GHC.Types.True Main.G -> GHC.Types.False } }) -}
+d38b6076660b5295e8cce5e2f82f67d5
+  $fEqSpecies_$c== :: Main.Species -> Main.Species -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ds :: Main.Species) (ds1 :: Main.Species) ->
+                 case ds of wild {
+                   Main.E
+                   -> case ds1 of wild1 {
+                        Main.E -> GHC.Types.True Main.G -> GHC.Types.False }
+                   Main.G
+                   -> case ds1 of wild1 {
+                        Main.E -> GHC.Types.False Main.G -> GHC.Types.True } }) -}
+1c56a92a6c4f3bc479bfbe13599878fb
+  $fEqUnits :: GHC.Classes.Eq Main.Units
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Units
+                  Main.$fEqUnits1
+                    `cast`
+                  (Sym (Main.N:Units[0])
+                   ->_R Sym (Main.N:Units[0])
+                   ->_R <GHC.Types.Bool>_R)
+                  Main.$fEqUnits_$s$fEqMap_$c/=
+                    `cast`
+                  (Sym (Main.N:Units[0])
+                   ->_R Sym (Main.N:Units[0])
+                   ->_R <GHC.Types.Bool>_R) -}
+70637484c5d2d23b4e4160eb7efe16c2
+  $fEqUnits1 ::
+    Data.Map.Internal.Map
+      (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> Data.Map.Internal.Map
+         (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> GHC.Types.Bool
+  {- Unfolding: (Data.Map.Internal.$fEqMap_$c==
+                   @ (GHC.Types.Int, GHC.Types.Int)
+                   @ (Main.Species, Main.Health)
+                   Main.$fEqUnits_$s$fEq(,)1
+                   Main.$fEqUnits_$s$fEq(,)) -}
+6af955b7614c87e0005bac37eb724253
+  $fEqUnits_$s$fEq(,) :: GHC.Classes.Eq (Main.Species, GHC.Types.Int)
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ (Main.Species, GHC.Types.Int)
+                  (GHC.Classes.$fEq(,)_$c==
+                     @ Main.Species
+                     @ GHC.Types.Int
+                     Main.$fEqSpecies
+                     GHC.Classes.$fEqInt)
+                  Main.$fEqUnits_$s$fEq(,)_$c/= -}
+2efbb3effa1ece9d04134597dc13614c
+  $fEqUnits_$s$fEq(,)1 ::
+    GHC.Classes.Eq (GHC.Types.Int, GHC.Types.Int)
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ (GHC.Types.Int, GHC.Types.Int)
+                  (GHC.Classes.$fEq(,)_$c==
+                     @ GHC.Types.Int
+                     @ GHC.Types.Int
+                     GHC.Classes.$fEqInt
+                     GHC.Classes.$fEqInt)
+                  Main.$fEqUnits_$s$fEq(,)_$c/=1 -}
+773357afb7ee6cffc39e9422086a2e72
+  $fEqUnits_$s$fEq(,)_$c/= ::
+    (Main.Species, GHC.Types.Int)
+    -> (Main.Species, GHC.Types.Int) -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SL),1*U(1*U,1*U(U))><S(SL),1*U(1*U,1*U(U))>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: (Main.Species, GHC.Types.Int))
+                   (y :: (Main.Species, GHC.Types.Int)) ->
+                 case x of wild { (,) a1 a2 ->
+                 case y of wild1 { (,) b1 b2 ->
+                 case a1 of wild2 {
+                   Main.E
+                   -> case b1 of wild3 {
+                        Main.E
+                        -> case GHC.Classes.eqInt a2 b2 of wild4 {
+                             GHC.Types.False -> GHC.Types.True
+                             GHC.Types.True -> GHC.Types.False }
+                        Main.G -> GHC.Types.True }
+                   Main.G
+                   -> case b1 of wild3 {
+                        Main.E -> GHC.Types.True
+                        Main.G
+                        -> case GHC.Classes.eqInt a2 b2 of wild4 {
+                             GHC.Types.False -> GHC.Types.True
+                             GHC.Types.True -> GHC.Types.False } } } } }) -}
+85044b43021403236865d53239323302
+  $fEqUnits_$s$fEq(,)_$c/=1 ::
+    (GHC.Types.Int, GHC.Types.Int)
+    -> (GHC.Types.Int, GHC.Types.Int) -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(S(S)L),1*U(1*U(U),1*U(U))><S(S(S)L),1*U(1*U(U),1*U(U))>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: (GHC.Types.Int, GHC.Types.Int))
+                   (y :: (GHC.Types.Int, GHC.Types.Int)) ->
+                 case x of wild { (,) a1 a2 ->
+                 case y of wild1 { (,) b1 b2 ->
+                 case GHC.Classes.eqInt a1 b1 of wild2 {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True
+                   -> case GHC.Classes.eqInt a2 b2 of wild3 {
+                        GHC.Types.False -> GHC.Types.True
+                        GHC.Types.True -> GHC.Types.False } } } }) -}
+5aded465bed14b310afdca3dd787b6f0
+  $fEqUnits_$s$fEqMap_$c/= ::
+    Data.Map.Internal.Map
+      (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> Data.Map.Internal.Map
+         (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> GHC.Types.Bool
+  {- Arity: 2, Strictness: <L,U><L,U>, Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (x :: Data.Map.Internal.Map
+                           (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health))
+                   (y :: Data.Map.Internal.Map
+                           (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)) ->
+                 case Data.Map.Internal.$fEqMap_$c==
+                        @ (GHC.Types.Int, GHC.Types.Int)
+                        @ (Main.Species, Main.Health)
+                        Main.$fEqUnits_$s$fEq(,)1
+                        Main.$fEqUnits_$s$fEq(,)
+                        x
+                        y of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+3ccc1004d58944f9538d9bf06314a02d
+  $fHasArrayCaveVector ::
+    Main.HasArray
+      Main.Cave (Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char))
+  DFunId
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S(SL),1*U(U,U)>,
+     Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fHasArrayCaveVector_$carray
+                  `cast`
+                (Sym (Main.N:HasArray[0]
+                          <Main.Cave>_N
+                          <Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char)>_N)) -}
+f864b4371666f29babda7c5e398335ea
+  $fHasArrayCaveVector_$carray ::
+    Control.Lens.Type.Lens'
+      Main.Cave (Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char))
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S(SL),1*U(U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ f :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f)
+                   (f1 :: Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char)
+                          -> f (Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char)))
+                   (ds :: Main.Cave) ->
+                 case ds of wild { Main.Cave x1 x2 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ (Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char))
+                   @ Main.Cave
+                   (\ (y1 :: Data.Vector.Vector
+                               (Data.Vector.Vector GHC.Types.Char)) ->
+                    Main.$WCave y1 x2)
+                   (f1 x1) }) -}
+da86f0e8ce22360d814db6cf4dccb254
+  $fHasCaveEnvCave :: Main.HasCave Main.Env Main.Cave
+  DFunId
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U)>,
+     Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fHasCaveEnvCave_$ccave
+                  `cast`
+                (Sym (Main.N:HasCave[0] <Main.Env>_N <Main.Cave>_N)) -}
+f7bad1c606f2628d8683269fd0dfb40c
+  $fHasCaveEnvCave_$ccave ::
+    Control.Lens.Type.Lens' Main.Env Main.Cave
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ f :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f)
+                   (f1 :: Main.Cave -> f Main.Cave)
+                   (ds :: Main.Env) ->
+                 case ds of wild { Main.Env x1 x2 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ Main.Cave
+                   @ Main.Env
+                   (\ (y1 :: Main.Cave) -> Main.Env x1 y1)
+                   (f1 x2) }) -}
+2f751ed1c3d6c0ec054ba440597b1f1b
+  $fHasElfPowerEnvInt :: Main.HasElfPower Main.Env GHC.Types.Int
+  DFunId
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U)>,
+     Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fHasElfPowerEnvInt_$celfPower
+                  `cast`
+                (Sym (Main.N:HasElfPower[0] <Main.Env>_N <GHC.Types.Int>_N)) -}
+5d2ef334d9b743ccd254a6fef4705bbf
+  $fHasElfPowerEnvInt_$celfPower ::
+    Control.Lens.Type.Lens' Main.Env GHC.Types.Int
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S,1*U(U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ f :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f)
+                   (f1 :: GHC.Types.Int -> f GHC.Types.Int)
+                   (ds :: Main.Env) ->
+                 case ds of wild { Main.Env x1 x2 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ GHC.Types.Int
+                   @ Main.Env
+                   (\ (y1 :: GHC.Types.Int) -> Main.Env y1 x2)
+                   (f1 x1) }) -}
+1325a40d2d9ed3da5406e4776cb1c030
+  $fHasUnitsCaveUnits :: Main.HasUnits Main.Cave Main.Units
+  DFunId
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S(SL),1*U(U,U)>,
+     Inline: (sat-args=0),
+     Unfolding: InlineRule (0, False, True)
+                Main.$fHasUnitsCaveUnits_$cunits
+                  `cast`
+                (Sym (Main.N:HasUnits[0] <Main.Cave>_N <Main.Units>_N)) -}
+e0aeb8a00ab71c7c66f9ec8b22f843e1
+  $fHasUnitsCaveUnits_$cunits ::
+    Control.Lens.Type.Lens' Main.Cave Main.Units
+  {- Arity: 3, HasNoCafRefs,
+     Strictness: <S(C(C(S))L),1*U(1*C1(C1(U)),A)><L,1*C1(U)><S(SL),1*U(U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ f :: * -> *
+                   ($dFunctor :: GHC.Base.Functor f)
+                   (f1 :: Main.Units -> f Main.Units)
+                   (ds :: Main.Cave) ->
+                 case ds of wild { Main.Cave x1 x2 ->
+                 GHC.Base.fmap
+                   @ f
+                   $dFunctor
+                   @ Main.Units
+                   @ Main.Cave
+                   (\ (y1 :: Main.Units) -> Main.$WCave x1 y1)
+                   (f1 x2) }) -}
+d38b6076660b5295e8cce5e2f82f67d5
+  $fOrdSpecies :: GHC.Classes.Ord Main.Species
+  DFunId
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Species
+                  Main.$fEqSpecies
+                  Main.$fOrdSpecies_$ccompare
+                  Main.$fOrdSpecies_$c<
+                  Main.$fOrdSpecies_$c<=
+                  Main.$fOrdSpecies_$c>
+                  Main.$fOrdSpecies_$c>=
+                  Main.$fOrdSpecies_$cmax
+                  Main.$fOrdSpecies_$cmin -}
+d38b6076660b5295e8cce5e2f82f67d5
+  $fOrdSpecies_$c< :: Main.Species -> Main.Species -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Main.Species) (b :: Main.Species) ->
+                 case a of wild {
+                   Main.E
+                   -> case b of wild1 {
+                        Main.E -> GHC.Types.False Main.G -> GHC.Types.True }
+                   Main.G -> case b of wild1 { DEFAULT -> GHC.Types.False } }) -}
+d38b6076660b5295e8cce5e2f82f67d5
+  $fOrdSpecies_$c<= :: Main.Species -> Main.Species -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Main.Species) (b :: Main.Species) ->
+                 case b of wild {
+                   Main.E
+                   -> case a of wild1 {
+                        Main.E -> GHC.Types.True Main.G -> GHC.Types.False }
+                   Main.G -> case a of wild1 { DEFAULT -> GHC.Types.True } }) -}
+d38b6076660b5295e8cce5e2f82f67d5
+  $fOrdSpecies_$c> :: Main.Species -> Main.Species -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, True)
+                (\ (a :: Main.Species) (b :: Main.Species) ->
+                 Main.$fOrdSpecies_$c< b a) -}
+d38b6076660b5295e8cce5e2f82f67d5
+  $fOrdSpecies_$c>= :: Main.Species -> Main.Species -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Main.Species) (b :: Main.Species) ->
+                 case a of wild {
+                   Main.E
+                   -> case b of wild1 {
+                        Main.E -> GHC.Types.True Main.G -> GHC.Types.False }
+                   Main.G -> case b of wild1 { DEFAULT -> GHC.Types.True } }) -}
+d38b6076660b5295e8cce5e2f82f67d5
+  $fOrdSpecies_$ccompare ::
+    Main.Species -> Main.Species -> GHC.Types.Ordering
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (a :: Main.Species) (b :: Main.Species) ->
+                 case a of wild {
+                   Main.E
+                   -> case b of wild1 {
+                        Main.E -> GHC.Types.EQ Main.G -> GHC.Types.LT }
+                   Main.G
+                   -> case b of wild1 {
+                        Main.E -> GHC.Types.GT Main.G -> GHC.Types.EQ } }) -}
+d38b6076660b5295e8cce5e2f82f67d5
+  $fOrdSpecies_$cmax :: Main.Species -> Main.Species -> Main.Species
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: Main.Species) (y :: Main.Species) ->
+                 case y of wild {
+                   Main.E -> x Main.G -> case x of wild1 { DEFAULT -> Main.G } }) -}
+d38b6076660b5295e8cce5e2f82f67d5
+  $fOrdSpecies_$cmin :: Main.Species -> Main.Species -> Main.Species
+  {- Arity: 2, HasNoCafRefs, Strictness: <S,1*U><S,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: Main.Species) (y :: Main.Species) ->
+                 case y of wild {
+                   Main.E -> case x of wild1 { DEFAULT -> Main.E } Main.G -> x }) -}
+1c56a92a6c4f3bc479bfbe13599878fb
+  $fOrdUnits :: GHC.Classes.Ord Main.Units
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Units
+                  Main.$fEqUnits
+                  Main.$fOrdUnits7
+                    `cast`
+                  (Sym (Main.N:Units[0])
+                   ->_R Sym (Main.N:Units[0])
+                   ->_R <GHC.Types.Ordering>_R)
+                  Main.$fOrdUnits6
+                    `cast`
+                  (Sym (Main.N:Units[0])
+                   ->_R Sym (Main.N:Units[0])
+                   ->_R <GHC.Types.Bool>_R)
+                  Main.$fOrdUnits5
+                    `cast`
+                  (Sym (Main.N:Units[0])
+                   ->_R Sym (Main.N:Units[0])
+                   ->_R <GHC.Types.Bool>_R)
+                  Main.$fOrdUnits4
+                    `cast`
+                  (Sym (Main.N:Units[0])
+                   ->_R Sym (Main.N:Units[0])
+                   ->_R <GHC.Types.Bool>_R)
+                  Main.$fOrdUnits3
+                    `cast`
+                  (Sym (Main.N:Units[0])
+                   ->_R Sym (Main.N:Units[0])
+                   ->_R <GHC.Types.Bool>_R)
+                  Main.$fOrdUnits2
+                    `cast`
+                  (Sym (Main.N:Units[0])
+                   ->_R Sym (Main.N:Units[0])
+                   ->_R Sym (Main.N:Units[0]))
+                  Main.$fOrdUnits1
+                    `cast`
+                  (Sym (Main.N:Units[0])
+                   ->_R Sym (Main.N:Units[0])
+                   ->_R Sym (Main.N:Units[0])) -}
+c587ac97d6c4051e4374bc30049efd4f
+  $fOrdUnits1 ::
+    Data.Map.Internal.Map
+      (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> Data.Map.Internal.Map
+         (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> Data.Map.Internal.Map
+         (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+  {- Arity: 2, HasNoCafRefs,
+     Unfolding: (Data.Map.Internal.$fOrdMap_$cmin
+                   @ (GHC.Types.Int, GHC.Types.Int)
+                   @ (Main.Species, Main.Health)
+                   Main.$fOrdUnits_$s$fOrd(,)1
+                   Main.$fOrdUnits_$s$fOrd(,)) -}
+f63820acde6cbc8b8932dd6d600ab66c
+  $fOrdUnits2 ::
+    Data.Map.Internal.Map
+      (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> Data.Map.Internal.Map
+         (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> Data.Map.Internal.Map
+         (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+  {- Arity: 2, HasNoCafRefs,
+     Unfolding: (Data.Map.Internal.$fOrdMap_$cmax
+                   @ (GHC.Types.Int, GHC.Types.Int)
+                   @ (Main.Species, Main.Health)
+                   Main.$fOrdUnits_$s$fOrd(,)1
+                   Main.$fOrdUnits_$s$fOrd(,)) -}
+5ac18b652e0c51e2092f99022ecdc58d
+  $fOrdUnits3 ::
+    Data.Map.Internal.Map
+      (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> Data.Map.Internal.Map
+         (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Unfolding: (Data.Map.Internal.$fOrdMap_$c>=
+                   @ (GHC.Types.Int, GHC.Types.Int)
+                   @ (Main.Species, Main.Health)
+                   Main.$fOrdUnits_$s$fOrd(,)1
+                   Main.$fOrdUnits_$s$fOrd(,)) -}
+e1f27f1071d982f2f5bdde520bc47081
+  $fOrdUnits4 ::
+    Data.Map.Internal.Map
+      (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> Data.Map.Internal.Map
+         (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Unfolding: (Data.Map.Internal.$fOrdMap_$c>
+                   @ (GHC.Types.Int, GHC.Types.Int)
+                   @ (Main.Species, Main.Health)
+                   Main.$fOrdUnits_$s$fOrd(,)1
+                   Main.$fOrdUnits_$s$fOrd(,)) -}
+a3b0eac2df02c3eb63368c352a1cf303
+  $fOrdUnits5 ::
+    Data.Map.Internal.Map
+      (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> Data.Map.Internal.Map
+         (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Unfolding: (Data.Map.Internal.$fOrdMap_$c<=
+                   @ (GHC.Types.Int, GHC.Types.Int)
+                   @ (Main.Species, Main.Health)
+                   Main.$fOrdUnits_$s$fOrd(,)1
+                   Main.$fOrdUnits_$s$fOrd(,)) -}
+89bc8b23898559cae0d9f9420c26775a
+  $fOrdUnits6 ::
+    Data.Map.Internal.Map
+      (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> Data.Map.Internal.Map
+         (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Unfolding: (Data.Map.Internal.$fOrdMap_$c<
+                   @ (GHC.Types.Int, GHC.Types.Int)
+                   @ (Main.Species, Main.Health)
+                   Main.$fOrdUnits_$s$fOrd(,)1
+                   Main.$fOrdUnits_$s$fOrd(,)) -}
+9a9a718e6648e539b544b30c2669ca63
+  $fOrdUnits7 ::
+    Data.Map.Internal.Map
+      (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> Data.Map.Internal.Map
+         (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+    -> GHC.Types.Ordering
+  {- Unfolding: (Data.Map.Internal.$fOrdMap_$ccompare
+                   @ (GHC.Types.Int, GHC.Types.Int)
+                   @ (Main.Species, Main.Health)
+                   Main.$fOrdUnits_$s$fOrd(,)1
+                   Main.$fOrdUnits_$s$fOrd(,)) -}
+a8e6aa9f12a8d0268906d77ac31623d1
+  $fOrdUnits_$s$fOrd(,) ::
+    GHC.Classes.Ord (Main.Species, GHC.Types.Int)
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ (Main.Species, GHC.Types.Int)
+                  Main.$fEqUnits_$s$fEq(,)
+                  (GHC.Classes.$fOrd(,)_$ccompare
+                     @ Main.Species
+                     @ GHC.Types.Int
+                     Main.$fOrdSpecies
+                     GHC.Classes.$fOrdInt)
+                  (GHC.Classes.$fOrd(,)_$c<
+                     @ Main.Species
+                     @ GHC.Types.Int
+                     Main.$fOrdSpecies
+                     GHC.Classes.$fOrdInt)
+                  (GHC.Classes.$fOrd(,)_$c<=
+                     @ Main.Species
+                     @ GHC.Types.Int
+                     Main.$fOrdSpecies
+                     GHC.Classes.$fOrdInt)
+                  (\ (a1 :: (Main.Species, GHC.Types.Int))
+                     (b1 :: (Main.Species, GHC.Types.Int)) ->
+                   GHC.Classes.$fOrd(,)_$c<
+                     @ Main.Species
+                     @ GHC.Types.Int
+                     Main.$fOrdSpecies
+                     GHC.Classes.$fOrdInt
+                     b1
+                     a1)
+                  (GHC.Classes.$fOrd(,)_$c>=
+                     @ Main.Species
+                     @ GHC.Types.Int
+                     Main.$fOrdSpecies
+                     GHC.Classes.$fOrdInt)
+                  (GHC.Classes.$fOrd(,)_$cmax
+                     @ Main.Species
+                     @ GHC.Types.Int
+                     Main.$fOrdSpecies
+                     GHC.Classes.$fOrdInt)
+                  (GHC.Classes.$fOrd(,)_$cmin
+                     @ Main.Species
+                     @ GHC.Types.Int
+                     Main.$fOrdSpecies
+                     GHC.Classes.$fOrdInt) -}
+9a2cb44d6cbe5cf2ed7f6df69b5c23a8
+  $fOrdUnits_$s$fOrd(,)1 ::
+    GHC.Classes.Ord (GHC.Types.Int, GHC.Types.Int)
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ (GHC.Types.Int, GHC.Types.Int)
+                  Main.$fEqUnits_$s$fEq(,)1
+                  (GHC.Classes.$fOrd(,)_$ccompare
+                     @ GHC.Types.Int
+                     @ GHC.Types.Int
+                     GHC.Classes.$fOrdInt
+                     GHC.Classes.$fOrdInt)
+                  (GHC.Classes.$fOrd(,)_$c<
+                     @ GHC.Types.Int
+                     @ GHC.Types.Int
+                     GHC.Classes.$fOrdInt
+                     GHC.Classes.$fOrdInt)
+                  (GHC.Classes.$fOrd(,)_$c<=
+                     @ GHC.Types.Int
+                     @ GHC.Types.Int
+                     GHC.Classes.$fOrdInt
+                     GHC.Classes.$fOrdInt)
+                  (\ (a1 :: (GHC.Types.Int, GHC.Types.Int))
+                     (b1 :: (GHC.Types.Int, GHC.Types.Int)) ->
+                   GHC.Classes.$fOrd(,)_$c<
+                     @ GHC.Types.Int
+                     @ GHC.Types.Int
+                     GHC.Classes.$fOrdInt
+                     GHC.Classes.$fOrdInt
+                     b1
+                     a1)
+                  (GHC.Classes.$fOrd(,)_$c>=
+                     @ GHC.Types.Int
+                     @ GHC.Types.Int
+                     GHC.Classes.$fOrdInt
+                     GHC.Classes.$fOrdInt)
+                  (GHC.Classes.$fOrd(,)_$cmax
+                     @ GHC.Types.Int
+                     @ GHC.Types.Int
+                     GHC.Classes.$fOrdInt
+                     GHC.Classes.$fOrdInt)
+                  (GHC.Classes.$fOrd(,)_$cmin
+                     @ GHC.Types.Int
+                     @ GHC.Types.Int
+                     GHC.Classes.$fOrdInt
+                     GHC.Classes.$fOrdInt) -}
+d9b24dcee7895656a0ddbb7591b8faee
+  $fShowCave :: GHC.Show.Show Main.Cave
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Cave
+                  Main.$fShowCave_$cshowsPrec
+                  Main.$fShowCave_$cshow
+                  Main.$fShowCave_$cshowList -}
+d9b24dcee7895656a0ddbb7591b8faee
+  $fShowCave1 :: Main.Cave -> GHC.Base.String -> [GHC.Types.Char]
+  {- Arity: 2, Strictness: <S(S(SSS)L),1*U(U(U,U,U),U)><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: Main.Cave) (s1 :: GHC.Base.String)[OneShot] ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr @ GHC.Types.Char @ b c n (Main.$fShowCave_$cshow x))
+                   s1) -}
+d9b24dcee7895656a0ddbb7591b8faee
+  $fShowCave_$cshow :: Main.Cave -> GHC.Base.String
+  {- Arity: 1, Strictness: <S(S(SSS)L),1*U(U(U,U,U),U)>, Inline: [0],
+     Unfolding: InlineRule (1, True, False)
+                (\ (w :: Main.Cave) ->
+                 case w of ww { Main.Cave ww1 ww2 ->
+                 case ww1 of ww3 { Data.Vector.Vector ww4 ww5 ww6 ->
+                 Main.$w$cshow ww4 ww5 ww6 ww2 } }) -}
+d9b24dcee7895656a0ddbb7591b8faee
+  $fShowCave_$cshowList :: [Main.Cave] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [Main.Cave]) (s1 :: GHC.Base.String) ->
+                 GHC.Show.showList__ @ Main.Cave Main.$fShowCave1 ls s1) -}
+d9b24dcee7895656a0ddbb7591b8faee
+  $fShowCave_$cshowsPrec ::
+    GHC.Types.Int -> Main.Cave -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S(S(SSS)L),1*U(U(U,U,U),U)><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: GHC.Types.Int)
+                   (x :: Main.Cave)
+                   (s1 :: GHC.Base.String) ->
+                 GHC.Base.augment
+                   @ GHC.Types.Char
+                   (\ @ b
+                      (c :: GHC.Types.Char -> b -> b)[OneShot]
+                      (n :: b)[OneShot] ->
+                    GHC.Base.foldr @ GHC.Types.Char @ b c n (Main.$fShowCave_$cshow x))
+                   s1) -}
+d38b6076660b5295e8cce5e2f82f67d5
+  $fShowSpecies :: GHC.Show.Show Main.Species
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Species
+                  Main.$fShowSpecies_$cshowsPrec
+                  Main.$fShowSpecies_$cshow
+                  Main.$fShowSpecies_$cshowList -}
+d38b6076660b5295e8cce5e2f82f67d5
+  $fShowSpecies1 :: Main.Species -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,1*U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (x :: Main.Species) (s1 :: GHC.Base.String) ->
+                 case x of wild {
+                   Main.E
+                   -> GHC.Base.augment
+                        @ GHC.Types.Char
+                        (\ @ b
+                           (c :: GHC.Types.Char -> b -> b)[OneShot]
+                           (n :: b)[OneShot] ->
+                         GHC.Base.foldr @ GHC.Types.Char @ b c n Main.$fShowSpecies4)
+                        s1
+                   Main.G
+                   -> GHC.Base.augment
+                        @ GHC.Types.Char
+                        (\ @ b
+                           (c :: GHC.Types.Char -> b -> b)[OneShot]
+                           (n :: b)[OneShot] ->
+                         GHC.Base.foldr @ GHC.Types.Char @ b c n Main.$fShowSpecies2)
+                        s1 }) -}
+67366965ec6fa79772d8a572660993ed
+  $fShowSpecies2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.$fShowSpecies3) -}
+b39a6dd2407b7d3743d810502d39d7ff
+  $fShowSpecies3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("G"#) -}
+fc8b190113d9fcb3dc83ace9fdd1c752
+  $fShowSpecies4 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.$fShowSpecies5) -}
+76bd7ee12abcd0f4fa70aa40d2ca40c9
+  $fShowSpecies5 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("E"#) -}
+d38b6076660b5295e8cce5e2f82f67d5
+  $fShowSpecies_$cshow :: Main.Species -> GHC.Base.String
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.Species) ->
+                 case ds of wild {
+                   Main.E -> Main.$fShowSpecies4 Main.G -> Main.$fShowSpecies2 }) -}
+d38b6076660b5295e8cce5e2f82f67d5
+  $fShowSpecies_$cshowList :: [Main.Species] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [Main.Species]) (s1 :: GHC.Base.String) ->
+                 GHC.Show.showList__ @ Main.Species Main.$fShowSpecies1 ls s1) -}
+d38b6076660b5295e8cce5e2f82f67d5
+  $fShowSpecies_$cshowsPrec ::
+    GHC.Types.Int -> Main.Species -> GHC.Show.ShowS
+  {- Arity: 3, Strictness: <L,A><S,1*U><L,1*U>,
+     Unfolding: InlineRule (3, True, False)
+                (\ (ds :: GHC.Types.Int)
+                   (x :: Main.Species)
+                   (s1 :: GHC.Base.String) ->
+                 case x of wild {
+                   Main.E
+                   -> GHC.Base.augment
+                        @ GHC.Types.Char
+                        (\ @ b
+                           (c :: GHC.Types.Char -> b -> b)[OneShot]
+                           (n :: b)[OneShot] ->
+                         GHC.Base.foldr @ GHC.Types.Char @ b c n Main.$fShowSpecies4)
+                        s1
+                   Main.G
+                   -> GHC.Base.augment
+                        @ GHC.Types.Char
+                        (\ @ b
+                           (c :: GHC.Types.Char -> b -> b)[OneShot]
+                           (n :: b)[OneShot] ->
+                         GHC.Base.foldr @ GHC.Types.Char @ b c n Main.$fShowSpecies2)
+                        s1 }) -}
+1c56a92a6c4f3bc479bfbe13599878fb
+  $fShowUnits :: GHC.Show.Show Main.Units
+  DFunId
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ Main.Units
+                  Main.$fShowUnits_$cshowsPrec
+                  Main.$fShowUnits_$cshow
+                  Main.$fShowUnits_$cshowList -}
+1c56a92a6c4f3bc479bfbe13599878fb
+  $fShowUnits1 :: Main.Units -> GHC.Show.ShowS
+  {- Arity: 1, Strictness: <L,1*U>,
+     Unfolding: (\ (w :: Main.Units) -> Main.$w$cshowsPrec 0# w) -}
+6eea42e2f24241cd807d51f437a539e2
+  $fShowUnits2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("}"#) -}
+b0a23dcdfeaf2287f69b95d24fb617e9
+  $fShowUnits3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("unit = "#) -}
+fdf8915762f4e9d930e04ae351057795
+  $fShowUnits4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Units {"#) -}
+14d78cc9700fd02e712be1f606df5b7b
+  $fShowUnits5 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Main.$fShowUnits2) -}
+1c56a92a6c4f3bc479bfbe13599878fb
+  $fShowUnits_$cshow :: Main.Units -> GHC.Base.String
+  {- Arity: 1, Strictness: <L,1*U>,
+     Unfolding: (\ (x :: Main.Units) ->
+                 GHC.CString.unpackAppendCString#
+                   Main.$fShowUnits4
+                   (GHC.CString.unpackAppendCString#
+                      Main.$fShowUnits3
+                      (Data.Map.Internal.$w$cshowsPrec
+                         @ (GHC.Types.Int, GHC.Types.Int)
+                         @ (Main.Species, Main.Health)
+                         Main.$fShowUnits_$s$fShow(,)1
+                         Main.$fShowUnits_$s$fShow(,)
+                         0#
+                         x `cast` (Main.N:Units[0])
+                         Main.$fShowUnits5))) -}
+1c56a92a6c4f3bc479bfbe13599878fb
+  $fShowUnits_$cshowList :: [Main.Units] -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,1*U><L,U>,
+     Unfolding: InlineRule (2, True, False)
+                (\ (ls :: [Main.Units]) (s1 :: GHC.Base.String) ->
+                 GHC.Show.showList__ @ Main.Units Main.$fShowUnits1 ls s1) -}
+1c56a92a6c4f3bc479bfbe13599878fb
+  $fShowUnits_$cshowsPrec ::
+    GHC.Types.Int -> Main.Units -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S(S),1*U(U)><L,1*U>, Inline: [0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: GHC.Types.Int) (w1 :: Main.Units) ->
+                 case w of ww { GHC.Types.I# ww1 -> Main.$w$cshowsPrec ww1 w1 }) -}
+45aa16ff68d0e9111e445d2a01d4515c
+  $fShowUnits_$s$fShow(,) ::
+    GHC.Show.Show (Main.Species, GHC.Types.Int)
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ (Main.Species, GHC.Types.Int)
+                  (GHC.Show.$fShow(,)_$cshowsPrec
+                     @ Main.Species
+                     @ GHC.Types.Int
+                     Main.$fShowSpecies
+                     GHC.Show.$fShowInt)
+                  (\ (x :: (Main.Species, GHC.Types.Int)) ->
+                   GHC.Show.$fShow(,)_$cshowsPrec
+                     @ Main.Species
+                     @ GHC.Types.Int
+                     Main.$fShowSpecies
+                     GHC.Show.$fShowInt
+                     GHC.Show.$fShow(,)1
+                     x
+                     (GHC.Types.[] @ GHC.Types.Char))
+                  (\ (ls :: [(Main.Species, GHC.Types.Int)])
+                     (s1 :: GHC.Base.String) ->
+                   GHC.Show.showList__
+                     @ (Main.Species, GHC.Types.Int)
+                     (GHC.Show.$fShow(,)_$cshowsPrec
+                        @ Main.Species
+                        @ GHC.Types.Int
+                        Main.$fShowSpecies
+                        GHC.Show.$fShowInt
+                        GHC.Show.$fShow(,)1)
+                     ls
+                     s1) -}
+c0b27164b264a979ade8d00cd640c600
+  $fShowUnits_$s$fShow(,)1 ::
+    GHC.Show.Show (GHC.Types.Int, GHC.Types.Int)
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ (GHC.Types.Int, GHC.Types.Int)
+                  (GHC.Show.$fShow(,)_$cshowsPrec
+                     @ GHC.Types.Int
+                     @ GHC.Types.Int
+                     GHC.Show.$fShowInt
+                     GHC.Show.$fShowInt)
+                  (\ (x :: (GHC.Types.Int, GHC.Types.Int)) ->
+                   GHC.Show.$fShow(,)_$cshowsPrec
+                     @ GHC.Types.Int
+                     @ GHC.Types.Int
+                     GHC.Show.$fShowInt
+                     GHC.Show.$fShowInt
+                     GHC.Show.$fShow(,)1
+                     x
+                     (GHC.Types.[] @ GHC.Types.Char))
+                  (\ (ls :: [(GHC.Types.Int, GHC.Types.Int)])
+                     (s1 :: GHC.Base.String) ->
+                   GHC.Show.showList__
+                     @ (GHC.Types.Int, GHC.Types.Int)
+                     (GHC.Show.$fShow(,)_$cshowsPrec
+                        @ GHC.Types.Int
+                        @ GHC.Types.Int
+                        GHC.Show.$fShowInt
+                        GHC.Show.$fShowInt
+                        GHC.Show.$fShow(,)1)
+                     ls
+                     s1) -}
+792dcd87f9a02d5a1473ff8187640228
+  $s$fApplicativeReaderT ::
+    GHC.Base.Applicative
+      (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+                  (Main.$s$fApplicativeReaderT_$s$fFunctorReaderT @ r)
+                  (\ @ a (x :: a) ->
+                   let {
+                     m3 :: GHC.Prim.State# GHC.Prim.RealWorld
+                           -> (# GHC.Prim.State# GHC.Prim.RealWorld, a #)
+                       {- Arity: 1 -}
+                     = \ (s1 :: GHC.Prim.State# GHC.Prim.RealWorld) -> (# s1, x #)
+                   } in
+                   (\ (ds :: r) -> m3)
+                     `cast`
+                   ((<r>_R
+                     ->_R Sym (GHC.Types.N:IO[0]
+                                   <a>_R)) ; Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                      <*>_N <r>_R <GHC.Types.IO>_R <a>_N)))
+                  (Main.$s$fApplicativeReaderT_$s$fApplicativeReaderT_$c<*> @ r)
+                  (Control.Monad.Trans.Reader.$fApplicativeReaderT_$cliftA2
+                     @ GHC.Types.IO
+                     @ r
+                     GHC.Base.$fApplicativeIO)
+                  (Main.$s$fApplicativeReaderT_$s$fApplicativeReaderT_$c*> @ r)
+                  (Main.$s$fApplicativeReaderT_$s$fApplicativeReaderT_$c<* @ r) -}
+8c5224f156644022cc358d12fd348a0c
+  $s$fApplicativeReaderT_$s$fApplicativeReaderT_$c*> ::
+    Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S(SL))),1*C1(C1(U(U,A)))><L,1*C1(C1(U(U,U)))><L,U><S,U>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ r
+                   @ a
+                   @ b
+                   (u :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a)
+                   (v :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b)
+                   (r2 :: r)
+                   (s1 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (u `cast`
+                       (Control.Monad.Trans.Reader.N:ReaderT[0]
+                            <*>_N <r>_R <GHC.Types.IO>_R <a>_N)
+                         r2)
+                        `cast`
+                      (GHC.Types.N:IO[0] <a>_R)
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 (v `cast`
+                  (Control.Monad.Trans.Reader.N:ReaderT[0]
+                       <*>_N <r>_R <GHC.Types.IO>_R <b>_N)
+                    r2)
+                   `cast`
+                 (GHC.Types.N:IO[0] <b>_R)
+                   ipv })
+                  `cast`
+                (forall (r :: <*>_N) (a :: <*>_N) (b :: <*>_N).
+                 <Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a>_R
+                 ->_R <Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b>_R
+                 ->_R (<r>_R
+                       ->_R Sym (GHC.Types.N:IO[0]
+                                     <b>_R)) ; Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                        <*>_N <r>_R <GHC.Types.IO>_R <b>_N)) -}
+4e376732a3815d40e451c8f9bcb38287
+  $s$fApplicativeReaderT_$s$fApplicativeReaderT_$c<* ::
+    Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S(SL))),1*C1(C1(U(U,U)))><L,1*C1(C1(U(U,A)))><L,U><S,U>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ r
+                   @ a
+                   @ b
+                   (u :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a)
+                   (v :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b)
+                   (r2 :: r)
+                   (s1 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (u `cast`
+                       (Control.Monad.Trans.Reader.N:ReaderT[0]
+                            <*>_N <r>_R <GHC.Types.IO>_R <a>_N)
+                         r2)
+                        `cast`
+                      (GHC.Types.N:IO[0] <a>_R)
+                        s1 of ds { (#,#) ipv ipv1 ->
+                 case (v `cast`
+                       (Control.Monad.Trans.Reader.N:ReaderT[0]
+                            <*>_N <r>_R <GHC.Types.IO>_R <b>_N)
+                         r2)
+                        `cast`
+                      (GHC.Types.N:IO[0] <b>_R)
+                        ipv of ds1 { (#,#) ipv2 ipv3 ->
+                 (# ipv2, ipv1 #) } })
+                  `cast`
+                (forall (r :: <*>_N) (a :: <*>_N) (b :: <*>_N).
+                 <Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a>_R
+                 ->_R <Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b>_R
+                 ->_R (<r>_R
+                       ->_R Sym (GHC.Types.N:IO[0]
+                                     <a>_R)) ; Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                        <*>_N <r>_R <GHC.Types.IO>_R <a>_N)) -}
+a2e8aee5e7bba2ca7e41e57d8ef168b5
+  $s$fApplicativeReaderT_$s$fApplicativeReaderT_$c<*> ::
+    Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO (a -> b)
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S(SL))),1*C1(C1(U(U,1*C1(U))))><L,1*C1(C1(U(U,U)))><L,U><S,U>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ r
+                   @ a
+                   @ b
+                   (f :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO (a -> b))
+                   (v :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a)
+                   (r2 :: r)
+                   (s1 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (f `cast`
+                       (Control.Monad.Trans.Reader.N:ReaderT[0]
+                            <*>_N <r>_R <GHC.Types.IO>_R <a -> b>_N)
+                         r2)
+                        `cast`
+                      (GHC.Types.N:IO[0] <a -> b>_R)
+                        s1 of ds { (#,#) ipv ipv1 ->
+                 case (v `cast`
+                       (Control.Monad.Trans.Reader.N:ReaderT[0]
+                            <*>_N <r>_R <GHC.Types.IO>_R <a>_N)
+                         r2)
+                        `cast`
+                      (GHC.Types.N:IO[0] <a>_R)
+                        ipv of ds1 { (#,#) ipv2 ipv3 ->
+                 (# ipv2, ipv1 ipv3 #) } })
+                  `cast`
+                (forall (r :: <*>_N) (a :: <*>_N) (b :: <*>_N).
+                 <Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO (a -> b)>_R
+                 ->_R <Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a>_R
+                 ->_R (<r>_R
+                       ->_R Sym (GHC.Types.N:IO[0]
+                                     <b>_R)) ; Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                        <*>_N <r>_R <GHC.Types.IO>_R <b>_N)) -}
+d09f9dbee508ef6fbfc02242bff9e69a
+  $s$fApplicativeReaderT_$s$fFunctorReaderT ::
+    GHC.Base.Functor
+      (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+                  (Main.$s$fApplicativeReaderT_$s$fFunctorReaderT_$cfmap @ r)
+                  (Main.$s$fApplicativeReaderT_$s$fFunctorReaderT_$c<$ @ r) -}
+fc2193f49a8affa3545e72877032c2cc
+  $s$fApplicativeReaderT_$s$fFunctorReaderT_$c<$ ::
+    a
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <L,U><C(C(S(SL))),1*C1(C1(U(U,A)))><L,U><S,U>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ r
+                   @ a
+                   @ b
+                   (x :: a)
+                   (v :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b)
+                   (x1 :: r)
+                   (eta1 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (v `cast`
+                       (Control.Monad.Trans.Reader.N:ReaderT[0]
+                            <*>_N <r>_R <GHC.Types.IO>_R <b>_N)
+                         x1)
+                        `cast`
+                      (GHC.Types.N:IO[0] <b>_R)
+                        eta1 of ds { (#,#) ipv ipv1 ->
+                 (# ipv, x #) })
+                  `cast`
+                (forall (r :: <*>_N) (a :: <*>_N) (b :: <*>_N).
+                 <a>_R
+                 ->_R <Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b>_R
+                 ->_R (<r>_R
+                       ->_R Sym (GHC.Types.N:IO[0]
+                                     <a>_R)) ; Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                        <*>_N <r>_R <GHC.Types.IO>_R <a>_N)) -}
+811c17d3cf7b240902ad3d1401c7d151
+  $s$fApplicativeReaderT_$s$fFunctorReaderT_$cfmap ::
+    (a -> b)
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <L,1*C1(U)><C(C(S(SL))),1*C1(C1(U(U,U)))><L,U><S,U>,
+     Inline: (sat-args=1),
+     Unfolding: InlineRule (1, False, False)
+                (\ @ r @ a @ b (f :: a -> b) ->
+                 Control.Monad.Trans.Reader.mapReaderT
+                   @ *
+                   @ *
+                   @ GHC.Types.IO
+                   @ a
+                   @ GHC.Types.IO
+                   @ b
+                   @ r
+                   (GHC.Base.$fFunctorIO2 @ a @ b f)
+                     `cast`
+                   (<GHC.Types.IO a>_R ->_R Sym (GHC.Types.N:IO[0] <b>_R))) -}
+013c9e35d260f0009cc9c5354c20a49a
+  $s$fEqVector ::
+    GHC.Classes.Eq
+      (Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char))
+  {- HasNoCafRefs, Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ (Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char))
+                  Main.$s$fEqVector_$s$fEqVector_$c==1
+                  Main.$s$fEqVector_$s$fEqVector_$c/= -}
+4a83f6dd1e5f0091b022f6960c7e6d94
+  $s$fEqVector_$s$fEqVector_$c/= ::
+    Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char)
+    -> Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char)
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(LSL),1*U(U,U,U)><S(LSL),1*U(U,U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (xs :: Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char))
+                   (ys :: Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char)) ->
+                 case (Data.Vector.Fusion.Bundle.Monadic.eqBy
+                         @ Data.Vector.Fusion.Util.Id
+                         @ (Data.Vector.Vector GHC.Types.Char)
+                         @ (Data.Vector.Vector GHC.Types.Char)
+                         @ Data.Vector.Vector
+                         Data.Vector.Fusion.Util.$fMonadId
+                         Main.$s$fEqVector_$s$fEqVector_$c==
+                         (Data.Vector.Generic.stream
+                            @ Data.Vector.Vector
+                            @ (Data.Vector.Vector GHC.Types.Char)
+                            (Data.Vector.$fVectorVectora @ (Data.Vector.Vector GHC.Types.Char))
+                            xs)
+                         (Data.Vector.Generic.stream
+                            @ Data.Vector.Vector
+                            @ (Data.Vector.Vector GHC.Types.Char)
+                            (Data.Vector.$fVectorVectora @ (Data.Vector.Vector GHC.Types.Char))
+                            ys))
+                        `cast`
+                      (Data.Vector.Fusion.Util.N:Id[0] <GHC.Types.Bool>_R) of wild {
+                   GHC.Types.False -> GHC.Types.True
+                   GHC.Types.True -> GHC.Types.False }) -}
+190e362f917d072bc07a5d205214bcfd
+  $s$fEqVector_$s$fEqVector_$c== ::
+    Data.Vector.Vector GHC.Types.Char
+    -> Data.Vector.Vector GHC.Types.Char -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SSS),1*U(U,U,U)><S(SSS),1*U(U,U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (xs :: Data.Vector.Vector GHC.Types.Char)
+                   (ys :: Data.Vector.Vector GHC.Types.Char) ->
+                 Data.Vector.Fusion.Bundle.Monadic.eqBy
+                   @ Data.Vector.Fusion.Util.Id
+                   @ GHC.Types.Char
+                   @ GHC.Types.Char
+                   @ Data.Vector.Vector
+                   Data.Vector.Fusion.Util.$fMonadId
+                   GHC.Classes.eqChar
+                   (Data.Vector.Generic.stream
+                      @ Data.Vector.Vector
+                      @ GHC.Types.Char
+                      (Data.Vector.$fVectorVectora @ GHC.Types.Char)
+                      xs)
+                   (Data.Vector.Generic.stream
+                      @ Data.Vector.Vector
+                      @ GHC.Types.Char
+                      (Data.Vector.$fVectorVectora @ GHC.Types.Char)
+                      ys))
+                  `cast`
+                (<Data.Vector.Vector GHC.Types.Char>_R
+                 ->_R <Data.Vector.Vector GHC.Types.Char>_R
+                 ->_R Data.Vector.Fusion.Util.N:Id[0] <GHC.Types.Bool>_R) -}
+6db74215c5fdf5479a6664da978b426a
+  $s$fEqVector_$s$fEqVector_$c==1 ::
+    Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char)
+    -> Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char)
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S(SSS),1*U(U,U,U)><S(SSS),1*U(U,U,U)>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ (xs :: Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char))
+                   (ys :: Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char)) ->
+                 Data.Vector.Fusion.Bundle.Monadic.eqBy
+                   @ Data.Vector.Fusion.Util.Id
+                   @ (Data.Vector.Vector GHC.Types.Char)
+                   @ (Data.Vector.Vector GHC.Types.Char)
+                   @ Data.Vector.Vector
+                   Data.Vector.Fusion.Util.$fMonadId
+                   Main.$s$fEqVector_$s$fEqVector_$c==
+                   (Data.Vector.Generic.stream
+                      @ Data.Vector.Vector
+                      @ (Data.Vector.Vector GHC.Types.Char)
+                      (Data.Vector.$fVectorVectora @ (Data.Vector.Vector GHC.Types.Char))
+                      xs)
+                   (Data.Vector.Generic.stream
+                      @ Data.Vector.Vector
+                      @ (Data.Vector.Vector GHC.Types.Char)
+                      (Data.Vector.$fVectorVectora @ (Data.Vector.Vector GHC.Types.Char))
+                      ys))
+                  `cast`
+                (<Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char)>_R
+                 ->_R <Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char)>_R
+                 ->_R Data.Vector.Fusion.Util.N:Id[0] <GHC.Types.Bool>_R) -}
+8d40dfdcf7f8e24e0b88b9aa9c2401af
+  $s$fMonadIOReaderT ::
+    Control.Monad.IO.Class.MonadIO
+      (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+                  (Main.$s$fMonadIOReaderT_$s$fMonadReaderT @ r)
+                  (\ @ a (x :: GHC.Types.IO a) (ds :: r) -> x)
+                    `cast`
+                  (forall (a :: <*>_N).
+                   <GHC.Types.IO a>_R
+                   ->_R Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                 <*>_N <r>_R <GHC.Types.IO>_R <a>_N)) -}
+68783e53e69f1062793c92473cafc7aa
+  $s$fMonadIOReaderT_$s$fMonadReaderT ::
+    GHC.Base.Monad (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun: @ r.
+                  @ (Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO)
+                  (Main.$s$fApplicativeReaderT @ r)
+                  (Main.$s$fMonadIOReaderT_$s$fMonadReaderT_$c>>= @ r)
+                  (Main.$s$fApplicativeReaderT_$s$fApplicativeReaderT_$c*> @ r)
+                  (\ @ a (eta :: a) ->
+                   let {
+                     m3 :: GHC.Prim.State# GHC.Prim.RealWorld
+                           -> (# GHC.Prim.State# GHC.Prim.RealWorld, a #)
+                       {- Arity: 1 -}
+                     = \ (s1 :: GHC.Prim.State# GHC.Prim.RealWorld) -> (# s1, eta #)
+                   } in
+                   (\ (ds :: r) -> m3)
+                     `cast`
+                   ((<r>_R
+                     ->_R Sym (GHC.Types.N:IO[0]
+                                   <a>_R)) ; Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                      <*>_N <r>_R <GHC.Types.IO>_R <a>_N)))
+                  (Main.$s$fMonadIOReaderT_$s$fMonadReaderT_$cfail @ r) -}
+1efc8f1d81c9fdc30ea6bd8db64e658b
+  $s$fMonadIOReaderT_$s$fMonadReaderT_$c>>= ::
+    Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+    -> (a -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b)
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b
+  {- Arity: 4, HasNoCafRefs,
+     Strictness: <C(C(S(SL))),1*C1(C1(U(U,U)))><L,1*C1(C1(C1(U(U,U))))><L,U><S,U>,
+     Inline: (sat-args=2),
+     Unfolding: InlineRule (2, False, False)
+                (\ @ r
+                   @ a
+                   @ b
+                   (m3 :: Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a)
+                   (k :: a -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b)
+                   (r2 :: r)
+                   (s1 :: GHC.Prim.State# GHC.Prim.RealWorld) ->
+                 case (m3
+                         `cast`
+                       (Control.Monad.Trans.Reader.N:ReaderT[0]
+                            <*>_N <r>_R <GHC.Types.IO>_R <a>_N)
+                         r2)
+                        `cast`
+                      (GHC.Types.N:IO[0] <a>_R)
+                        s1 of ds1 { (#,#) ipv ipv1 ->
+                 ((k ipv1)
+                    `cast`
+                  (Control.Monad.Trans.Reader.N:ReaderT[0]
+                       <*>_N <r>_R <GHC.Types.IO>_R <b>_N)
+                    r2)
+                   `cast`
+                 (GHC.Types.N:IO[0] <b>_R)
+                   ipv })
+                  `cast`
+                (forall (r :: <*>_N) (a :: <*>_N) (b :: <*>_N).
+                 <Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a>_R
+                 ->_R <a -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO b>_R
+                 ->_R (<r>_R
+                       ->_R Sym (GHC.Types.N:IO[0]
+                                     <b>_R)) ; Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                                                        <*>_N <r>_R <GHC.Types.IO>_R <b>_N)) -}
+955b2d1ae3d6ce37a26b90572a2efa3c
+  $s$fMonadIOReaderT_$s$fMonadReaderT_$cfail ::
+    GHC.Base.String
+    -> Control.Monad.Trans.Reader.ReaderT r GHC.Types.IO a
+  {- Arity: 1, Strictness: <L,U>, Inline: (sat-args=1),
+     Unfolding: InlineRule (1, False, False)
+                (\ @ r @ a (msg :: GHC.Base.String) ->
+                 let {
+                   m3 :: GHC.Types.IO a
+                   = GHC.Magic.noinline
+                       @ (forall a1. [GHC.Types.Char] -> GHC.Types.IO a1)
+                       GHC.IO.failIO1
+                         `cast`
+                       (forall (a1 :: <*>_N).
+                        <GHC.Base.String>_R ->_R Sym (GHC.Types.N:IO[0] <a1>_R))
+                       @ a
+                       msg
+                 } in
+                 (\ (ds :: r) -> m3)
+                   `cast`
+                 (Sym (Control.Monad.Trans.Reader.N:ReaderT[0]
+                           <*>_N <r>_R <GHC.Types.IO>_R <a>_N))) -}
+6c59400184a6bba3057eb620c4205e96
+  $s$fOrdSet ::
+    GHC.Classes.Ord
+      (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int))
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int))
+                  (Data.Set.Internal.$fEqSet
+                     @ (GHC.Types.Int, GHC.Types.Int)
+                     Main.$fEqUnits_$s$fEq(,)1)
+                  (\ (s1 :: Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int))
+                     (s2 :: Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)) ->
+                   GHC.Classes.$fOrd[]_$ccompare
+                     @ (GHC.Types.Int, GHC.Types.Int)
+                     Main.$fOrdUnits_$s$fOrd(,)1
+                     (Data.Set.Internal.$fDataSet_go
+                        @ (GHC.Types.Int, GHC.Types.Int)
+                        (GHC.Types.[] @ (GHC.Types.Int, GHC.Types.Int))
+                        s1)
+                     (Data.Set.Internal.$fDataSet_go
+                        @ (GHC.Types.Int, GHC.Types.Int)
+                        (GHC.Types.[] @ (GHC.Types.Int, GHC.Types.Int))
+                        s2))
+                  (Data.Set.Internal.$fOrdSet_$c<
+                     @ (GHC.Types.Int, GHC.Types.Int)
+                     Main.$fOrdUnits_$s$fOrd(,)1)
+                  (Data.Set.Internal.$fOrdSet_$c<=
+                     @ (GHC.Types.Int, GHC.Types.Int)
+                     Main.$fOrdUnits_$s$fOrd(,)1)
+                  (Data.Set.Internal.$fOrdSet_$c>
+                     @ (GHC.Types.Int, GHC.Types.Int)
+                     Main.$fOrdUnits_$s$fOrd(,)1)
+                  (Data.Set.Internal.$fOrdSet_$c>=
+                     @ (GHC.Types.Int, GHC.Types.Int)
+                     Main.$fOrdUnits_$s$fOrd(,)1)
+                  (Data.Set.Internal.$fOrdSet_$cmax
+                     @ (GHC.Types.Int, GHC.Types.Int)
+                     Main.$fOrdUnits_$s$fOrd(,)1)
+                  (Data.Set.Internal.$fOrdSet_$cmin
+                     @ (GHC.Types.Int, GHC.Types.Int)
+                     Main.$fOrdUnits_$s$fOrd(,)1) -}
+6cf077e9234c8faefa060650d5d47fcf
+  $s$fOrd[] :: GHC.Classes.Ord [(GHC.Types.Int, GHC.Types.Int)]
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ [(GHC.Types.Int, GHC.Types.Int)]
+                  (GHC.Classes.$fEq[]
+                     @ (GHC.Types.Int, GHC.Types.Int)
+                     Main.$fEqUnits_$s$fEq(,)1)
+                  (GHC.Classes.$fOrd[]_$ccompare
+                     @ (GHC.Types.Int, GHC.Types.Int)
+                     Main.$fOrdUnits_$s$fOrd(,)1)
+                  (\ (x :: [(GHC.Types.Int, GHC.Types.Int)])
+                     (y :: [(GHC.Types.Int, GHC.Types.Int)]) ->
+                   case GHC.Classes.$fOrd[]_$ccompare
+                          @ (GHC.Types.Int, GHC.Types.Int)
+                          Main.$fOrdUnits_$s$fOrd(,)1
+                          x
+                          y of wild {
+                     DEFAULT -> GHC.Types.False GHC.Types.LT -> GHC.Types.True })
+                  (\ (x :: [(GHC.Types.Int, GHC.Types.Int)])
+                     (y :: [(GHC.Types.Int, GHC.Types.Int)]) ->
+                   case GHC.Classes.$fOrd[]_$ccompare
+                          @ (GHC.Types.Int, GHC.Types.Int)
+                          Main.$fOrdUnits_$s$fOrd(,)1
+                          x
+                          y of wild {
+                     DEFAULT -> GHC.Types.True GHC.Types.GT -> GHC.Types.False })
+                  (\ (x :: [(GHC.Types.Int, GHC.Types.Int)])
+                     (y :: [(GHC.Types.Int, GHC.Types.Int)]) ->
+                   case GHC.Classes.$fOrd[]_$ccompare
+                          @ (GHC.Types.Int, GHC.Types.Int)
+                          Main.$fOrdUnits_$s$fOrd(,)1
+                          x
+                          y of wild {
+                     DEFAULT -> GHC.Types.False GHC.Types.GT -> GHC.Types.True })
+                  (\ (x :: [(GHC.Types.Int, GHC.Types.Int)])
+                     (y :: [(GHC.Types.Int, GHC.Types.Int)]) ->
+                   case GHC.Classes.$fOrd[]_$ccompare
+                          @ (GHC.Types.Int, GHC.Types.Int)
+                          Main.$fOrdUnits_$s$fOrd(,)1
+                          x
+                          y of wild {
+                     DEFAULT -> GHC.Types.True GHC.Types.LT -> GHC.Types.False })
+                  (\ (x :: [(GHC.Types.Int, GHC.Types.Int)])
+                     (y :: [(GHC.Types.Int, GHC.Types.Int)]) ->
+                   case GHC.Classes.$fOrd[]_$ccompare
+                          @ (GHC.Types.Int, GHC.Types.Int)
+                          Main.$fOrdUnits_$s$fOrd(,)1
+                          x
+                          y of wild {
+                     DEFAULT -> y GHC.Types.GT -> x })
+                  (\ (x :: [(GHC.Types.Int, GHC.Types.Int)])
+                     (y :: [(GHC.Types.Int, GHC.Types.Int)]) ->
+                   case GHC.Classes.$fOrd[]_$ccompare
+                          @ (GHC.Types.Int, GHC.Types.Int)
+                          Main.$fOrdUnits_$s$fOrd(,)1
+                          x
+                          y of wild {
+                     DEFAULT -> x GHC.Types.GT -> y }) -}
+72321d4266c867b57af63bafabed3992
+  $s$fShowVector :: GHC.Show.Show (Data.Vector.Vector GHC.Types.Char)
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ (Data.Vector.Vector GHC.Types.Char)
+                  Main.$s$fShowVector_$sshowsPrec
+                  (Data.Vector.$fShowVector_$cshow
+                     @ GHC.Types.Char
+                     GHC.Show.$fShowChar)
+                  (Data.Vector.$fShowVector_$cshowList
+                     @ GHC.Types.Char
+                     GHC.Show.$fShowChar) -}
+da76fe08609a568e44e6a3d1c683e42f
+  $s$fShowVector1 ::
+    GHC.Show.Show
+      (Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char))
+  {- Strictness: m, Inline: CONLIKE,
+     Unfolding: DFun:.
+                  @ (Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char))
+                  Main.$s$fShowVector_$sshowsPrec1
+                  (Data.Vector.$fShowVector_$cshow
+                     @ (Data.Vector.Vector GHC.Types.Char)
+                     Main.$s$fShowVector)
+                  (Data.Vector.$fShowVector_$cshowList
+                     @ (Data.Vector.Vector GHC.Types.Char)
+                     Main.$s$fShowVector) -}
+62fd43bbfebe468b6197298c17a59406
+  $s$fShowVector_$sshowsPrec ::
+    GHC.Types.Int
+    -> Data.Vector.Vector GHC.Types.Char -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <L,A>, Inline: (sat-args=1),
+     Unfolding: InlineRule (1, False, False)
+                (\ (ds :: GHC.Types.Int)
+                   (x :: Data.Vector.Vector GHC.Types.Char) ->
+                 let {
+                   cs :: [GHC.Types.Char]
+                   = GHC.Base.build
+                       @ GHC.Types.Char
+                       (\ @ b
+                          (c :: GHC.Types.Char -> b -> b)[OneShot]
+                          (n :: b)[OneShot] ->
+                        Data.Vector.Fusion.Bundle.toListFB
+                          @ GHC.Types.Char
+                          @ b
+                          @ Data.Vector.Vector
+                          c
+                          n
+                          (Data.Vector.Generic.stream
+                             @ Data.Vector.Vector
+                             @ GHC.Types.Char
+                             (Data.Vector.$fVectorVectora @ GHC.Types.Char)
+                             x))
+                 } in
+                 \ (eta :: GHC.Base.String) ->
+                 GHC.Types.:
+                   @ GHC.Types.Char
+                   GHC.Show.$fShow(,)3
+                   (GHC.Show.showLitString
+                      cs
+                      (GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)3 eta))) -}
+aad7e654151de65b1ece3e898cf196ea
+  $s$fShowVector_$sshowsPrec1 ::
+    GHC.Types.Int
+    -> Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char)
+    -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <L,A>, Inline: (sat-args=1),
+     Unfolding: InlineRule (1, False, False)
+                (\ (ds :: GHC.Types.Int)
+                   (x :: Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char)) ->
+                 Data.Vector.$fShowVector_$cshowList
+                   @ GHC.Types.Char
+                   GHC.Show.$fShowChar
+                   (GHC.Base.build
+                      @ (Data.Vector.Vector GHC.Types.Char)
+                      (\ @ b
+                         (c :: Data.Vector.Vector GHC.Types.Char -> b -> b)[OneShot]
+                         (n :: b)[OneShot] ->
+                       Data.Vector.Fusion.Bundle.toListFB
+                         @ (Data.Vector.Vector GHC.Types.Char)
+                         @ b
+                         @ Data.Vector.Vector
+                         c
+                         n
+                         (Data.Vector.Generic.stream
+                            @ Data.Vector.Vector
+                            @ (Data.Vector.Vector GHC.Types.Char)
+                            (Data.Vector.$fVectorVectora @ (Data.Vector.Vector GHC.Types.Char))
+                            x)))) -}
+e0287445f2642966ad862225d840a442
+  $salter_go13 ::
+    GHC.Classes.Ord k1 =>
+    (GHC.Base.Maybe a1 -> GHC.Base.Maybe a1)
+    -> k1 -> Data.Map.Internal.Map k1 a1 -> Data.Map.Internal.Map k1 a1
+  {- Arity: 4,
+     Strictness: <L,U(A,C(C1(U)),A,A,A,A,A,A)><C(S),1*C1(U)><S,1*U><S,1*U> -}
+715beb7f9730517131b57b216601aba7
+  $sdelete_go13 ::
+    GHC.Classes.Ord k1 =>
+    k1 -> Data.Map.Internal.Map k1 a1 -> Data.Map.Internal.Map k1 a1
+  {- Arity: 3,
+     Strictness: <L,U(A,C(C1(U)),A,A,A,A,A,A)><S,1*U><S,1*U> -}
+40bebdefac009e7ae3cfa1f7d1084e98
+  $sfromList ::
+    [((GHC.Types.Int, GHC.Types.Int),
+      [(GHC.Types.Int, GHC.Types.Int)])]
+    -> Data.Set.Internal.Set
+         ((GHC.Types.Int, GHC.Types.Int), [(GHC.Types.Int, GHC.Types.Int)])
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (ds :: [((GHC.Types.Int, GHC.Types.Int),
+                            [(GHC.Types.Int, GHC.Types.Int)])]) ->
+                 case ds of wild {
+                   []
+                   -> Data.Set.Internal.Tip
+                        @ ((GHC.Types.Int, GHC.Types.Int),
+                           [(GHC.Types.Int, GHC.Types.Int)])
+                   : x ds1
+                   -> case ds1 of wild1 {
+                        []
+                        -> case x of dt { (,) ipv ipv1 ->
+                           Data.Set.Internal.Bin
+                             @ ((GHC.Types.Int, GHC.Types.Int),
+                                [(GHC.Types.Int, GHC.Types.Int)])
+                             1#
+                             dt
+                             (Data.Set.Internal.Tip
+                                @ ((GHC.Types.Int, GHC.Types.Int),
+                                   [(GHC.Types.Int, GHC.Types.Int)]))
+                             (Data.Set.Internal.Tip
+                                @ ((GHC.Types.Int, GHC.Types.Int),
+                                   [(GHC.Types.Int, GHC.Types.Int)])) }
+                        : ipv ipv1
+                        -> case x of ww { (,) ww1 ww2 ->
+                           case ipv of ww3 { (,) ww4 ww5 ->
+                           case ww1 of ww7 { (,) ww8 ww9 ->
+                           case ww4 of ww10 { (,) ww11 ww12 ->
+                           case ww8 of wild2 { GHC.Types.I# x# ->
+                           case ww11 of wild3 { GHC.Types.I# y# ->
+                           case GHC.Prim.<# x# y# of lwild {
+                             DEFAULT
+                             -> case GHC.Prim.==# x# y# of lwild1 {
+                                  DEFAULT
+                                  -> Main.$sfromList_go4
+                                       (Data.Set.Internal.Bin
+                                          @ ((GHC.Types.Int, GHC.Types.Int),
+                                             [(GHC.Types.Int, GHC.Types.Int)])
+                                          1#
+                                          ww
+                                          (Data.Set.Internal.Tip
+                                             @ ((GHC.Types.Int, GHC.Types.Int),
+                                                [(GHC.Types.Int, GHC.Types.Int)]))
+                                          (Data.Set.Internal.Tip
+                                             @ ((GHC.Types.Int, GHC.Types.Int),
+                                                [(GHC.Types.Int, GHC.Types.Int)])))
+                                       wild1
+                                  1#
+                                  -> case ww9 of wild4 { GHC.Types.I# x#1 ->
+                                     case ww12 of wild5 { GHC.Types.I# y#1 ->
+                                     case GHC.Prim.<# x#1 y#1 of lwild2 {
+                                       DEFAULT
+                                       -> case GHC.Prim.==# x#1 y#1 of lwild3 {
+                                            DEFAULT
+                                            -> Main.$sfromList_go4
+                                                 (Data.Set.Internal.Bin
+                                                    @ ((GHC.Types.Int, GHC.Types.Int),
+                                                       [(GHC.Types.Int, GHC.Types.Int)])
+                                                    1#
+                                                    ww
+                                                    (Data.Set.Internal.Tip
+                                                       @ ((GHC.Types.Int, GHC.Types.Int),
+                                                          [(GHC.Types.Int, GHC.Types.Int)]))
+                                                    (Data.Set.Internal.Tip
+                                                       @ ((GHC.Types.Int, GHC.Types.Int),
+                                                          [(GHC.Types.Int, GHC.Types.Int)])))
+                                                 wild1
+                                            1#
+                                            -> case GHC.Classes.$fOrd[]_$ccompare
+                                                      @ (GHC.Types.Int, GHC.Types.Int)
+                                                      Main.$fOrdUnits_$s$fOrd(,)1
+                                                      ww2
+                                                      ww5 of wild6 {
+                                                 DEFAULT
+                                                 -> Main.$sfromList_go4
+                                                      (Data.Set.Internal.Bin
+                                                         @ ((GHC.Types.Int, GHC.Types.Int),
+                                                            [(GHC.Types.Int, GHC.Types.Int)])
+                                                         1#
+                                                         ww
+                                                         (Data.Set.Internal.Tip
+                                                            @ ((GHC.Types.Int, GHC.Types.Int),
+                                                               [(GHC.Types.Int, GHC.Types.Int)]))
+                                                         (Data.Set.Internal.Tip
+                                                            @ ((GHC.Types.Int, GHC.Types.Int),
+                                                               [(GHC.Types.Int, GHC.Types.Int)])))
+                                                      wild1
+                                                 GHC.Types.LT
+                                                 -> Main.$wgo3
+                                                      1#
+                                                      (Data.Set.Internal.Bin
+                                                         @ ((GHC.Types.Int, GHC.Types.Int),
+                                                            [(GHC.Types.Int, GHC.Types.Int)])
+                                                         1#
+                                                         ww
+                                                         (Data.Set.Internal.Tip
+                                                            @ ((GHC.Types.Int, GHC.Types.Int),
+                                                               [(GHC.Types.Int, GHC.Types.Int)]))
+                                                         (Data.Set.Internal.Tip
+                                                            @ ((GHC.Types.Int, GHC.Types.Int),
+                                                               [(GHC.Types.Int, GHC.Types.Int)])))
+                                                      wild1 } }
+                                       1#
+                                       -> Main.$wgo3
+                                            1#
+                                            (Data.Set.Internal.Bin
+                                               @ ((GHC.Types.Int, GHC.Types.Int),
+                                                  [(GHC.Types.Int, GHC.Types.Int)])
+                                               1#
+                                               ww
+                                               (Data.Set.Internal.Tip
+                                                  @ ((GHC.Types.Int, GHC.Types.Int),
+                                                     [(GHC.Types.Int, GHC.Types.Int)]))
+                                               (Data.Set.Internal.Tip
+                                                  @ ((GHC.Types.Int, GHC.Types.Int),
+                                                     [(GHC.Types.Int, GHC.Types.Int)])))
+                                            wild1 } } } }
+                             1#
+                             -> Main.$wgo3
+                                  1#
+                                  (Data.Set.Internal.Bin
+                                     @ ((GHC.Types.Int, GHC.Types.Int),
+                                        [(GHC.Types.Int, GHC.Types.Int)])
+                                     1#
+                                     ww
+                                     (Data.Set.Internal.Tip
+                                        @ ((GHC.Types.Int, GHC.Types.Int),
+                                           [(GHC.Types.Int, GHC.Types.Int)]))
+                                     (Data.Set.Internal.Tip
+                                        @ ((GHC.Types.Int, GHC.Types.Int),
+                                           [(GHC.Types.Int, GHC.Types.Int)])))
+                                  wild1 } } } } } } } } }) -}
+48880f15955c995f6b180ba7fba9596b
+  $sfromList1 ::
+    [Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)]
+    -> Data.Set.Internal.Set
+         (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int))
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (ds :: [Data.Set.Internal.Set
+                             (GHC.Types.Int, GHC.Types.Int)]) ->
+                 case ds of wild {
+                   []
+                   -> Data.Set.Internal.Tip
+                        @ (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int))
+                   : x ds1
+                   -> case ds1 of wild1 {
+                        []
+                        -> case x of dt { DEFAULT ->
+                           Data.Set.Internal.Bin
+                             @ (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int))
+                             1#
+                             dt
+                             (Data.Set.Internal.Tip
+                                @ (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)))
+                             (Data.Set.Internal.Tip
+                                @ (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int))) }
+                        : ipv ipv1
+                        -> case GHC.Classes.$fOrd[]_$ccompare
+                                  @ (GHC.Types.Int, GHC.Types.Int)
+                                  Main.$fOrdUnits_$s$fOrd(,)1
+                                  (Data.Set.Internal.$fDataSet_go
+                                     @ (GHC.Types.Int, GHC.Types.Int)
+                                     (GHC.Types.[] @ (GHC.Types.Int, GHC.Types.Int))
+                                     x)
+                                  (Data.Set.Internal.$fDataSet_go
+                                     @ (GHC.Types.Int, GHC.Types.Int)
+                                     (GHC.Types.[] @ (GHC.Types.Int, GHC.Types.Int))
+                                     ipv) of wild2 {
+                             DEFAULT
+                             -> case x of dt { DEFAULT ->
+                                Main.$sfromList_go1
+                                  (Data.Set.Internal.Bin
+                                     @ (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int))
+                                     1#
+                                     dt
+                                     (Data.Set.Internal.Tip
+                                        @ (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)))
+                                     (Data.Set.Internal.Tip
+                                        @ (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int))))
+                                  wild1 }
+                             GHC.Types.LT
+                             -> case x of dt { DEFAULT ->
+                                Main.$wgo1
+                                  1#
+                                  (Data.Set.Internal.Bin
+                                     @ (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int))
+                                     1#
+                                     dt
+                                     (Data.Set.Internal.Tip
+                                        @ (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)))
+                                     (Data.Set.Internal.Tip
+                                        @ (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int))))
+                                  wild1 } } } }) -}
+d377b2be59e7a12c191d63144996321a
+  $sfromList2 ::
+    [(GHC.Types.Int, GHC.Types.Int)]
+    -> Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ (ds :: [(GHC.Types.Int, GHC.Types.Int)]) ->
+                 case ds of wild {
+                   [] -> Data.Set.Internal.Tip @ (GHC.Types.Int, GHC.Types.Int)
+                   : x ds1
+                   -> case ds1 of wild1 {
+                        []
+                        -> case x of dt { (,) ipv ipv1 ->
+                           Data.Set.Internal.Bin
+                             @ (GHC.Types.Int, GHC.Types.Int)
+                             1#
+                             dt
+                             (Data.Set.Internal.Tip @ (GHC.Types.Int, GHC.Types.Int))
+                             (Data.Set.Internal.Tip @ (GHC.Types.Int, GHC.Types.Int)) }
+                        : ipv ipv1
+                        -> case x of ww { (,) ww1 ww2 ->
+                           case ipv of ww3 { (,) ww4 ww5 ->
+                           case ww1 of wild2 { GHC.Types.I# x# ->
+                           case ww4 of wild3 { GHC.Types.I# y# ->
+                           case GHC.Prim.<# x# y# of lwild {
+                             DEFAULT
+                             -> case GHC.Prim.==# x# y# of lwild1 {
+                                  DEFAULT
+                                  -> Main.$sfromList_go2
+                                       (Data.Set.Internal.Bin
+                                          @ (GHC.Types.Int, GHC.Types.Int)
+                                          1#
+                                          ww
+                                          (Data.Set.Internal.Tip @ (GHC.Types.Int, GHC.Types.Int))
+                                          (Data.Set.Internal.Tip @ (GHC.Types.Int, GHC.Types.Int)))
+                                       wild1
+                                  1#
+                                  -> case ww2 of wild4 { GHC.Types.I# x1 ->
+                                     case ww5 of wild5 { GHC.Types.I# y ->
+                                     case GHC.Prim.<# x1 y of lwild2 {
+                                       DEFAULT
+                                       -> Main.$sfromList_go2
+                                            (Data.Set.Internal.Bin
+                                               @ (GHC.Types.Int, GHC.Types.Int)
+                                               1#
+                                               ww
+                                               (Data.Set.Internal.Tip
+                                                  @ (GHC.Types.Int, GHC.Types.Int))
+                                               (Data.Set.Internal.Tip
+                                                  @ (GHC.Types.Int, GHC.Types.Int)))
+                                            wild1
+                                       1#
+                                       -> Main.$wgo2
+                                            1#
+                                            (Data.Set.Internal.Bin
+                                               @ (GHC.Types.Int, GHC.Types.Int)
+                                               1#
+                                               ww
+                                               (Data.Set.Internal.Tip
+                                                  @ (GHC.Types.Int, GHC.Types.Int))
+                                               (Data.Set.Internal.Tip
+                                                  @ (GHC.Types.Int, GHC.Types.Int)))
+                                            wild1 } } } }
+                             1#
+                             -> Main.$wgo2
+                                  1#
+                                  (Data.Set.Internal.Bin
+                                     @ (GHC.Types.Int, GHC.Types.Int)
+                                     1#
+                                     ww
+                                     (Data.Set.Internal.Tip @ (GHC.Types.Int, GHC.Types.Int))
+                                     (Data.Set.Internal.Tip @ (GHC.Types.Int, GHC.Types.Int)))
+                                  wild1 } } } } } } }) -}
+20bfba26973d8b1856e06a90834c2160
+  $sfromList3 ::
+    [((GHC.Types.Int, GHC.Types.Int), a)]
+    -> Data.Map.Internal.Map (GHC.Types.Int, GHC.Types.Int) a
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ @ a (ds :: [((GHC.Types.Int, GHC.Types.Int), a)]) ->
+                 case ds of wild {
+                   [] -> Data.Map.Internal.Tip @ (GHC.Types.Int, GHC.Types.Int) @ a
+                   : ds1 ds2
+                   -> case ds1 of wild1 { (,) kx x ->
+                      case ds2 of wild2 {
+                        []
+                        -> case kx of dt { (,) ipv ipv1 ->
+                           Data.Map.Internal.Bin
+                             @ (GHC.Types.Int, GHC.Types.Int)
+                             @ a
+                             1#
+                             dt
+                             x
+                             (Data.Map.Internal.Tip @ (GHC.Types.Int, GHC.Types.Int) @ a)
+                             (Data.Map.Internal.Tip @ (GHC.Types.Int, GHC.Types.Int) @ a) }
+                        : ipv ipv1
+                        -> case ipv of wild3 { (,) ky ds3 ->
+                           case kx of ww { (,) ww1 ww2 ->
+                           case ky of ww3 { (,) ww4 ww5 ->
+                           case ww1 of wild4 { GHC.Types.I# x# ->
+                           case ww4 of wild5 { GHC.Types.I# y# ->
+                           case GHC.Prim.<# x# y# of lwild {
+                             DEFAULT
+                             -> case GHC.Prim.==# x# y# of lwild1 {
+                                  DEFAULT
+                                  -> Main.$sfromList4
+                                       @ a
+                                       (Data.Map.Internal.Bin
+                                          @ (GHC.Types.Int, GHC.Types.Int)
+                                          @ a
+                                          1#
+                                          ww
+                                          x
+                                          (Data.Map.Internal.Tip
+                                             @ (GHC.Types.Int, GHC.Types.Int)
+                                             @ a)
+                                          (Data.Map.Internal.Tip
+                                             @ (GHC.Types.Int, GHC.Types.Int)
+                                             @ a))
+                                       wild2
+                                  1#
+                                  -> case ww2 of wild6 { GHC.Types.I# x1 ->
+                                     case ww5 of wild7 { GHC.Types.I# y ->
+                                     case GHC.Prim.<# x1 y of lwild2 {
+                                       DEFAULT
+                                       -> Main.$sfromList4
+                                            @ a
+                                            (Data.Map.Internal.Bin
+                                               @ (GHC.Types.Int, GHC.Types.Int)
+                                               @ a
+                                               1#
+                                               ww
+                                               x
+                                               (Data.Map.Internal.Tip
+                                                  @ (GHC.Types.Int, GHC.Types.Int)
+                                                  @ a)
+                                               (Data.Map.Internal.Tip
+                                                  @ (GHC.Types.Int, GHC.Types.Int)
+                                                  @ a))
+                                            wild2
+                                       1#
+                                       -> Main.$wpoly_go13
+                                            @ a
+                                            1#
+                                            (Data.Map.Internal.Bin
+                                               @ (GHC.Types.Int, GHC.Types.Int)
+                                               @ a
+                                               1#
+                                               ww
+                                               x
+                                               (Data.Map.Internal.Tip
+                                                  @ (GHC.Types.Int, GHC.Types.Int)
+                                                  @ a)
+                                               (Data.Map.Internal.Tip
+                                                  @ (GHC.Types.Int, GHC.Types.Int)
+                                                  @ a))
+                                            wild2 } } } }
+                             1#
+                             -> Main.$wpoly_go13
+                                  @ a
+                                  1#
+                                  (Data.Map.Internal.Bin
+                                     @ (GHC.Types.Int, GHC.Types.Int)
+                                     @ a
+                                     1#
+                                     ww
+                                     x
+                                     (Data.Map.Internal.Tip @ (GHC.Types.Int, GHC.Types.Int) @ a)
+                                     (Data.Map.Internal.Tip @ (GHC.Types.Int, GHC.Types.Int) @ a))
+                                  wild2 } } } } } } } } }) -}
+5c022fcfe8b4d5e477c00c3be46bd1e7
+  $sfromList4 ::
+    Data.Map.Internal.Map (GHC.Types.Int, GHC.Types.Int) a
+    -> [((GHC.Types.Int, GHC.Types.Int), a)]
+    -> Data.Map.Internal.Map (GHC.Types.Int, GHC.Types.Int) a
+  {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
+088d7eb1aee4705a48f4a80f03a63793
+  $sfromList5 ::
+    [([(GHC.Types.Int, GHC.Types.Int)], a)]
+    -> Data.Map.Internal.Map [(GHC.Types.Int, GHC.Types.Int)] a
+  {- Arity: 1, Strictness: <S,1*U>,
+     Unfolding: (\ @ a
+                   (ds :: [([(GHC.Types.Int, GHC.Types.Int)], a)]) ->
+                 case ds of wild {
+                   [] -> Data.Map.Internal.Tip @ [(GHC.Types.Int, GHC.Types.Int)] @ a
+                   : ds1 ds2
+                   -> case ds1 of wild1 { (,) kx x ->
+                      case ds2 of wild2 {
+                        []
+                        -> case kx of dt { DEFAULT ->
+                           Data.Map.Internal.Bin
+                             @ [(GHC.Types.Int, GHC.Types.Int)]
+                             @ a
+                             1#
+                             dt
+                             x
+                             (Data.Map.Internal.Tip @ [(GHC.Types.Int, GHC.Types.Int)] @ a)
+                             (Data.Map.Internal.Tip @ [(GHC.Types.Int, GHC.Types.Int)] @ a) }
+                        : ipv ipv1
+                        -> case ipv of wild3 { (,) ky ds3 ->
+                           case GHC.Classes.$fOrd[]_$ccompare
+                                  @ (GHC.Types.Int, GHC.Types.Int)
+                                  Main.$fOrdUnits_$s$fOrd(,)1
+                                  kx
+                                  ky of wild4 {
+                             DEFAULT
+                             -> case kx of dt { DEFAULT ->
+                                Main.$sfromList6
+                                  @ a
+                                  (Data.Map.Internal.Bin
+                                     @ [(GHC.Types.Int, GHC.Types.Int)]
+                                     @ a
+                                     1#
+                                     dt
+                                     x
+                                     (Data.Map.Internal.Tip @ [(GHC.Types.Int, GHC.Types.Int)] @ a)
+                                     (Data.Map.Internal.Tip @ [(GHC.Types.Int, GHC.Types.Int)] @ a))
+                                  wild2 }
+                             GHC.Types.LT
+                             -> case kx of dt { DEFAULT ->
+                                Main.$wpoly_go1
+                                  @ a
+                                  1#
+                                  (Data.Map.Internal.Bin
+                                     @ [(GHC.Types.Int, GHC.Types.Int)]
+                                     @ a
+                                     1#
+                                     dt
+                                     x
+                                     (Data.Map.Internal.Tip @ [(GHC.Types.Int, GHC.Types.Int)] @ a)
+                                     (Data.Map.Internal.Tip @ [(GHC.Types.Int, GHC.Types.Int)] @ a))
+                                  wild2 } } } } } }) -}
+40b8570fe6e934a31a8a32840e7e913f
+  $sfromList6 ::
+    Data.Map.Internal.Map [(GHC.Types.Int, GHC.Types.Int)] a
+    -> [([(GHC.Types.Int, GHC.Types.Int)], a)]
+    -> Data.Map.Internal.Map [(GHC.Types.Int, GHC.Types.Int)] a
+  {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
+408b54ec1d1770005eec8106f1c5ca8b
+  $sfromList_go1 ::
+    Data.Set.Internal.Set
+      (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int))
+    -> [Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)]
+    -> Data.Set.Internal.Set
+         (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int))
+  {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
+1ead8c54d0f1c4da38053df6b3b51764
+  $sfromList_go2 ::
+    Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)
+    -> [(GHC.Types.Int, GHC.Types.Int)]
+    -> Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)
+  {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
+438ce0226f53234a66e21338943dcc55
+  $sfromList_go4 ::
+    Data.Set.Internal.Set
+      ((GHC.Types.Int, GHC.Types.Int), [(GHC.Types.Int, GHC.Types.Int)])
+    -> [((GHC.Types.Int, GHC.Types.Int),
+         [(GHC.Types.Int, GHC.Types.Int)])]
+    -> Data.Set.Internal.Set
+         ((GHC.Types.Int, GHC.Types.Int), [(GHC.Types.Int, GHC.Types.Int)])
+  {- Arity: 2, Strictness: <S,1*U><S,1*U> -}
+edb4867a60276101b41bcd4019949cca
+  $sinsertR_go3 ::
+    GHC.Classes.Ord a1 =>
+    a1 -> a1 -> Data.Set.Internal.Set a1 -> Data.Set.Internal.Set a1
+  {- Arity: 4,
+     Strictness: <L,U(A,C(C1(U)),A,A,A,A,A,A)><L,U><S,1*U><S,1*U> -}
+b742b5c787160f7b1af1fe3afc460eec
+  $sinsert_go13 ::
+    GHC.Classes.Ord k1 =>
+    k1
+    -> k1
+    -> a1
+    -> Data.Map.Internal.Map k1 a1
+    -> Data.Map.Internal.Map k1 a1
+  {- Arity: 5,
+     Strictness: <L,U(A,C(C1(U)),A,A,A,A,A,A)><L,U><S,1*U><L,U><S,1*U> -}
+ba1706bbd9fb724b78856bbcf3de71b6
+  $sinsert_go3 ::
+    GHC.Classes.Ord a1 =>
+    a1 -> a1 -> Data.Set.Internal.Set a1 -> Data.Set.Internal.Set a1
+  {- Arity: 4,
+     Strictness: <L,U(A,C(C1(U)),A,A,A,A,A,A)><L,U><S,1*U><S,1*U> -}
+2331eff1db3ac80f79a836d9348688e6
+  $smember_go3 ::
+    (GHC.Types.Int, GHC.Types.Int)
+    -> Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)
+    -> GHC.Types.Bool
+  {- Arity: 2, HasNoCafRefs,
+     Strictness: <S,1*U(1*U(U),1*U(U))><S,1*U>, Inline: [0],
+     Unfolding: InlineRule (2, True, False)
+                (\ (w :: (GHC.Types.Int, GHC.Types.Int))
+                   (w1 :: Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)) ->
+                 case w of ww { (,) ww1 ww2 -> Main.$wgo4 ww1 ww2 w1 }) -}
+1a25cf9889c2d5ba9f842487b250b708
+  $sunion ::
+    Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)
+    -> Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)
+    -> Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)
+  {- Arity: 2, Strictness: <S,1*U><S,1*U>, Inline: [~] -}
+d584a4ccc3eab8922a199cb3a28f8e4a
+  $tc'Cave :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   2101151245468707836##
+                   12616196679877878854##
+                   Main.$trModule
+                   Main.$tc'Cave2
+                   0#
+                   Main.$tc'Cave1) -}
+0e1bb46c9a8bd5bb56ce2dada2a7de7e
+  $tc'Cave1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+bfdce6483dbf64757e9de9b81f163286
+  $tc'Cave2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$tc'Cave3) -}
+b307d681e6311d79abe9c8c4852d6b30
+  $tc'Cave3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Cave"#) -}
+0997ad13141c99fa337d4a5c7f357512
+  $tc'E :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   14853457200836118463##
+                   4678530544106864470##
+                   Main.$trModule
+                   Main.$tc'E2
+                   0#
+                   Main.$tc'E1) -}
+8938de2b0501ad06b01a26203ebc9738
+  $tc'E1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m1, Inline: [~] -}
+9350f6b4aac2858819f0b32c91cd5ac7
+  $tc'E2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$tc'E3) -}
+cf1be2b49e9d0134f51a7d844aee0ddc
+  $tc'E3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'E"#) -}
+243dfa8688d0e6e65531f85cb2b2a935
+  $tc'Env :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   16703616774606600940##
+                   10744873200893762546##
+                   Main.$trModule
+                   Main.$tc'Env2
+                   0#
+                   Main.$tc'Env1) -}
+d4fb4e8b6eaaf28f232986f1aaef1d40
+  $tc'Env1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+73c0e6db538a3fa098c0f7e61d4d0d2b
+  $tc'Env2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$tc'Env3) -}
+f1e63ee3507ea2cf5f05bdf57d593890
+  $tc'Env3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Env"#) -}
+37a1e1d7c92e03fde9a18e990a915f9c
+  $tc'G :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   14306075366798528318##
+                   12949443273948373579##
+                   Main.$trModule
+                   Main.$tc'G1
+                   0#
+                   Main.$tc'E1) -}
+9b04ffbfa3a39b76b9c7f978fc7576ec
+  $tc'G1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$tc'G2) -}
+24e37c1db3350d8c4c7c47d7431282c4
+  $tc'G2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'G"#) -}
+e728c9dba54fabf9b0809787dc6c5dae
+  $tc'Units :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   128951518958574407##
+                   10708974661803012820##
+                   Main.$trModule
+                   Main.$tc'Units2
+                   0#
+                   Main.$tc'Units1) -}
+7b0c4e60e41b391b16106cb9b341b43b
+  $tc'Units1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+aac9580011551bd6e86ffb4eed26233d
+  $tc'Units2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$tc'Units3) -}
+69d5b6f8fe59943f5a7469f1487f0fd1
+  $tc'Units3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("'Units"#) -}
+228ef0fa755fe1d607177ea925b0cd1a
+  $tcCave :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   11000501554290880366##
+                   18108416238683162837##
+                   Main.$trModule
+                   Main.$tcCave1
+                   0#
+                   GHC.Types.krep$*) -}
+1b13e6ee3584abe266d2e9e82618f6b4
+  $tcCave1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$tcCave2) -}
+c49e1932c2ee73dad9c87d5d305c64cc
+  $tcCave2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Cave"#) -}
+3074539111246ef84df696f999580bf7
+  $tcEnv :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   16719196856831336909##
+                   10582005298383135762##
+                   Main.$trModule
+                   Main.$tcEnv1
+                   0#
+                   GHC.Types.krep$*) -}
+57eaae72aa8a5145dcec76c296898dad
+  $tcEnv1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$tcEnv2) -}
+8d9b94b4333ff86993cc14c5f097e6e2
+  $tcEnv2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Env"#) -}
+6bb06ba80261ee9c58ee78676ef94309
+  $tcHasArray :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   6907721908441439313##
+                   188632732520511030##
+                   Main.$trModule
+                   Main.$tcHasArray2
+                   0#
+                   Main.$tcHasArray1) -}
+6abf7e75bb9f89cc2b86165072c8bcc9
+  $tcHasArray1 :: GHC.Types.KindRep
+  {- HasNoCafRefs, Strictness: m4, Inline: [~] -}
+88888c83a5e788b1bc1084e87d0209b6
+  $tcHasArray2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$tcHasArray3) -}
+6dd8c74aa9212c8bbb1345901dc60d8f
+  $tcHasArray3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("HasArray"#) -}
+f403be57fdd1cd4ade25103dfc5a9b7d
+  $tcHasCave :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   8802087282704328080##
+                   11955662634055412598##
+                   Main.$trModule
+                   Main.$tcHasCave1
+                   0#
+                   Main.$tcHasArray1) -}
+5f5179103b3b5f1c25cbcb80547440b4
+  $tcHasCave1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$tcHasCave2) -}
+87a72cf7e675ea02235a584bb3dce88d
+  $tcHasCave2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("HasCave"#) -}
+dcee64b0e10586ec8e1cbe9ad44b4cc2
+  $tcHasElfPower :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   8138418886886037706##
+                   14807824474672024497##
+                   Main.$trModule
+                   Main.$tcHasElfPower1
+                   0#
+                   Main.$tcHasArray1) -}
+15b551fae66845461ef0a094606fa001
+  $tcHasElfPower1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$tcHasElfPower2) -}
+e2b46463ce6873eb7749ef2368c9f482
+  $tcHasElfPower2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("HasElfPower"#) -}
+043e8b1d6c4562837d3c6a04d748a30e
+  $tcHasUnits :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   1513890579260744186##
+                   3906225450679691044##
+                   Main.$trModule
+                   Main.$tcHasUnits1
+                   0#
+                   Main.$tcHasArray1) -}
+eae7545b66bb93ac70c9800ec41e8660
+  $tcHasUnits1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$tcHasUnits2) -}
+e41078fd47f6741777a793e18370380e
+  $tcHasUnits2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("HasUnits"#) -}
+eb517dfad35775f38c5ad936193b1dbe
+  $tcSpecies :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   4464892403994358480##
+                   8797363178474605138##
+                   Main.$trModule
+                   Main.$tcSpecies1
+                   0#
+                   GHC.Types.krep$*) -}
+6c942f213e73db8b7a74ae55263c9a98
+  $tcSpecies1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$tcSpecies2) -}
+9629cdce236027ceee2fde0f091f1c1d
+  $tcSpecies2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Species"#) -}
+859add4ed2bcca6406ff721e5f9f6504
+  $tcUnits :: GHC.Types.TyCon
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.TyCon
+                   15395824878424310577##
+                   2235103216227837575##
+                   Main.$trModule
+                   Main.$tcUnits1
+                   0#
+                   GHC.Types.krep$*) -}
+1b5a78bc8d5988990e3d1780f32c9caa
+  $tcUnits1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$tcUnits2) -}
+6eb13f1094cf81d34ccc6c1ace621d17
+  $tcUnits2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Units"#) -}
+be86c9d078d3acbf19ba91fe74a24273
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Main.$trModule3 Main.$trModule1) -}
+b09d86f2c49dd5176b544d8d13ddb6c5
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$trModule2) -}
+e5875966b74dad2d29772660b8a75e33
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Main"#) -}
+23b03bd7d075a00f5ad1ee10e6add7b8
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Main.$trModule4) -}
+d026be77cb9ced20e35a61514e0458aa
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("main"#) -}
+4ffd35e416fa778de8cba71a5ed9d1bc
+  $w$cshow ::
+    GHC.Prim.Int#
+    -> GHC.Prim.Int#
+    -> GHC.Prim.Array# (Data.Vector.Vector GHC.Types.Char)
+    -> Main.Units
+    -> GHC.Base.String
+  {- Arity: 4, Strictness: <L,U><S,U><L,U><L,U>, Inline: [0] -}
+1c56a92a6c4f3bc479bfbe13599878fb
+  $w$cshowsPrec :: GHC.Prim.Int# -> Main.Units -> GHC.Show.ShowS
+  {- Arity: 2, Strictness: <S,U><L,1*U>, Inline: [0],
+     Unfolding: (\ (ww :: GHC.Prim.Int#) (w :: Main.Units) ->
+                 let {
+                   f :: GHC.Base.String -> GHC.Base.String
+                   = Data.Map.Internal.$w$cshowsPrec
+                       @ (GHC.Types.Int, GHC.Types.Int)
+                       @ (Main.Species, Main.Health)
+                       Main.$fShowUnits_$s$fShow(,)1
+                       Main.$fShowUnits_$s$fShow(,)
+                       0#
+                       w `cast` (Main.N:Units[0])
+                 } in
+                 case GHC.Prim.>=# ww 11# of lwild {
+                   DEFAULT
+                   -> \ (x :: GHC.Base.String) ->
+                      GHC.CString.unpackAppendCString#
+                        Main.$fShowUnits4
+                        (GHC.CString.unpackAppendCString#
+                           Main.$fShowUnits3
+                           (f (GHC.CString.unpackAppendCString# Main.$fShowUnits2 x)))
+                   1#
+                   -> \ (x :: GHC.Base.String) ->
+                      GHC.Types.:
+                        @ GHC.Types.Char
+                        GHC.Show.$fShow(,)4
+                        (GHC.CString.unpackAppendCString#
+                           Main.$fShowUnits4
+                           (GHC.CString.unpackAppendCString#
+                              Main.$fShowUnits3
+                              (f (GHC.CString.unpackAppendCString#
+                                    Main.$fShowUnits2
+                                    (GHC.Types.: @ GHC.Types.Char GHC.Show.$fShow(,)2 x))))) }) -}
+c5777bfbe14365d0d5f0af70bbfcd6b9
+  $wgo1 ::
+    GHC.Prim.Int#
+    -> Data.Set.Internal.Set
+         (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int))
+    -> [Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)]
+    -> Data.Set.Internal.Set
+         (Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int))
+  {- Arity: 3, Strictness: <L,U><S,1*U><S,1*U>, Inline: [0] -}
+61af71cd04cc84e61bd623fb11fedcd6
+  $wgo2 ::
+    GHC.Prim.Int#
+    -> Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)
+    -> [(GHC.Types.Int, GHC.Types.Int)]
+    -> Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)
+  {- Arity: 3, Strictness: <L,U><S,1*U><S,1*U>, Inline: [0] -}
+9b49772490dd37b091fa78f334f00d5d
+  $wgo3 ::
+    GHC.Prim.Int#
+    -> Data.Set.Internal.Set
+         ((GHC.Types.Int, GHC.Types.Int), [(GHC.Types.Int, GHC.Types.Int)])
+    -> [((GHC.Types.Int, GHC.Types.Int),
+         [(GHC.Types.Int, GHC.Types.Int)])]
+    -> Data.Set.Internal.Set
+         ((GHC.Types.Int, GHC.Types.Int), [(GHC.Types.Int, GHC.Types.Int)])
+  {- Arity: 3, Strictness: <L,U><S,1*U><S,1*U>, Inline: [0] -}
+79ae2dae7ff44a6fc469f24acc3615fe
+  $wgo4 ::
+    GHC.Types.Int
+    -> GHC.Types.Int
+    -> Data.Set.Internal.Set (GHC.Types.Int, GHC.Types.Int)
+    -> GHC.Types.Bool
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,1*U(U)><L,1*U(U)><S,1*U>,
+     Inline: [0] -}
+c09fc252fec50164ff06a10d4ae10c98
+  $wpoly_go1 ::
+    GHC.Prim.Int#
+    -> Data.Map.Internal.Map [(GHC.Types.Int, GHC.Types.Int)] a
+    -> [([(GHC.Types.Int, GHC.Types.Int)], a)]
+    -> Data.Map.Internal.Map [(GHC.Types.Int, GHC.Types.Int)] a
+  {- Arity: 3, Strictness: <L,U><S,1*U><S,1*U>, Inline: [0] -}
+cc24182fb4c1482cf6a88ab511c7262f
+  $wpoly_go13 ::
+    GHC.Prim.Int#
+    -> Data.Map.Internal.Map (GHC.Types.Int, GHC.Types.Int) a
+    -> [((GHC.Types.Int, GHC.Types.Int), a)]
+    -> Data.Map.Internal.Map (GHC.Types.Int, GHC.Types.Int) a
+  {- Arity: 3, Strictness: <L,U><S,1*U><S,1*U>, Inline: [0] -}
+e2bac7a2936d22951e537a83c6a1d448
+  $wpoly_go2 ::
+    GHC.Types.Int
+    -> GHC.Types.Int
+    -> Data.Map.Internal.Map (GHC.Types.Int, GHC.Types.Int) a
+    -> GHC.Base.Maybe a
+  {- Arity: 3, HasNoCafRefs, Strictness: <L,1*U(U)><L,1*U(U)><S,1*U>,
+     Inline: [0] -}
+d9b24dcee7895656a0ddbb7591b8faee
+  data Cave
+    = Cave {caveArray :: !(Data.Vector.Vector
+                             (Data.Vector.Vector GHC.Types.Char)),
+            caveUnits :: Main.Units}
+7462b33e99613fd7b81fdc79306992fa
+  data Env = Env {envElfPower :: GHC.Types.Int, envCave :: Main.Cave}
+3ccc1004d58944f9538d9bf06314a02d
+  class HasArray s a | s -> a where
+    array :: Control.Lens.Type.Lens' s a
+    {-# MINIMAL array #-}
+da86f0e8ce22360d814db6cf4dccb254
+  class HasCave s a | s -> a where
+    cave :: Control.Lens.Type.Lens' s a
+    {-# MINIMAL cave #-}
+2f751ed1c3d6c0ec054ba440597b1f1b
+  class HasElfPower s a | s -> a where
+    elfPower :: Control.Lens.Type.Lens' s a
+    {-# MINIMAL elfPower #-}
+1325a40d2d9ed3da5406e4776cb1c030
+  class HasUnits s a | s -> a where
+    units :: Control.Lens.Type.Lens' s a
+    {-# MINIMAL units #-}
+bdfb293ae7903710fa816c86473378cd
+  type Health = GHC.Types.Int
+d38b6076660b5295e8cce5e2f82f67d5
+  data Species = E | G
+1c56a92a6c4f3bc479bfbe13599878fb
+  newtype Units
+    = Units {unit :: Data.Map.Internal.Map
+                       (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)}
+d9b24dcee7895656a0ddbb7591b8faee
+  caveArray ::
+    Main.Cave -> Data.Vector.Vector (Data.Vector.Vector GHC.Types.Char)
+  RecSel Left Main.Cave
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(U(U,U,U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.Cave) ->
+                 case ds of wild { Main.Cave ds1 ds2 -> ds1 }) -}
+d9b24dcee7895656a0ddbb7591b8faee
+  caveUnits :: Main.Cave -> Main.Units
+  RecSel Left Main.Cave
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U)>,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.Cave) ->
+                 case ds of wild { Main.Cave ds1 ds2 -> ds2 }) -}
+7462b33e99613fd7b81fdc79306992fa
+  envCave :: Main.Env -> Main.Cave
+  RecSel Left Main.Env
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(LS),1*U(A,1*U(U,U))>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.Env) ->
+                 case ds of wild { Main.Env ds1 ds2 -> ds2 }) -}
+7462b33e99613fd7b81fdc79306992fa
+  envElfPower :: Main.Env -> GHC.Types.Int
+  RecSel Left Main.Env
+  {- Arity: 1, HasNoCafRefs, Strictness: <S(SL),1*U(1*U(U),A)>m,
+     Unfolding: InlineRule (1, True, False)
+                (\ (ds :: Main.Env) ->
+                 case ds of wild { Main.Env ds1 ds2 -> ds1 }) -}
+b4f9ae97a091b232a88173a93240314d
+  main :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+529073e95d7e97cca9b9c5c633464b51
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U> -}
+2ae627898cff160a4ab35ad5461925fa
+  main2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+1c56a92a6c4f3bc479bfbe13599878fb
+  unit ::
+    Main.Units
+    -> Data.Map.Internal.Map
+         (GHC.Types.Int, GHC.Types.Int) (Main.Species, Main.Health)
+  RecSel Left Main.Units
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (0, True, True)
+                Main.unit1 `cast` (<Main.Units>_R ->_R Main.N:Units[0]) -}
+1c56a92a6c4f3bc479bfbe13599878fb
+  unit1 :: Main.Units -> Main.Units
+  {- Arity: 1, HasNoCafRefs, Strictness: <S,1*U>,
+     Unfolding: InlineRule (1, True, True)
+                (\ (ds :: Main.Units) -> ds) -}
+instance GHC.Classes.Eq [Main.Species] = Main.$fEqSpecies
+instance GHC.Classes.Eq [Main.Units] = Main.$fEqUnits
+instance Main.HasArray [Main.Cave, Data.Vector.Vector]
+  = Main.$fHasArrayCaveVector
+instance Main.HasCave [Main.Env, Main.Cave] = Main.$fHasCaveEnvCave
+instance Main.HasElfPower [Main.Env, GHC.Types.Int]
+  = Main.$fHasElfPowerEnvInt
+instance Main.HasUnits [Main.Cave, Main.Units]
+  = Main.$fHasUnitsCaveUnits
+instance GHC.Classes.Ord [Main.Species] = Main.$fOrdSpecies
+instance GHC.Classes.Ord [Main.Units] = Main.$fOrdUnits
+instance GHC.Show.Show [Main.Cave] = Main.$fShowCave
+instance GHC.Show.Show [Main.Species] = Main.$fShowSpecies
+instance GHC.Show.Show [Main.Units] = Main.$fShowUnits
+"SPEC/Main $fApplicativeReaderT @ IO _" [orphan] forall @ r
+                                                        (v :: GHC.Base.Applicative GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fApplicativeReaderT @ GHC.Types.IO
+                                                  @ r
+                                                  v
+  = Main.$s$fApplicativeReaderT @ r
+"SPEC/Main $fApplicativeReaderT_$c*> @ IO _" [orphan] forall @ r
+                                                             ($dApplicative :: GHC.Base.Applicative
+                                                                                 GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fApplicativeReaderT_$c*> @ GHC.Types.IO
+                                                       @ r
+                                                       $dApplicative
+  = Main.$s$fApplicativeReaderT_$s$fApplicativeReaderT_$c*> @ r
+"SPEC/Main $fApplicativeReaderT_$c<* @ IO _" [orphan] forall @ r
+                                                             ($dApplicative :: GHC.Base.Applicative
+                                                                                 GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fApplicativeReaderT_$c<* @ GHC.Types.IO
+                                                       @ r
+                                                       $dApplicative
+  = Main.$s$fApplicativeReaderT_$s$fApplicativeReaderT_$c<* @ r
+"SPEC/Main $fApplicativeReaderT_$c<*> @ IO _" [orphan] forall @ r
+                                                              ($dApplicative :: GHC.Base.Applicative
+                                                                                  GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fApplicativeReaderT_$c<*> @ GHC.Types.IO
+                                                        @ r
+                                                        $dApplicative
+  = Main.$s$fApplicativeReaderT_$s$fApplicativeReaderT_$c<*> @ r
+"SPEC/Main $fEq(,) @ Int @ Int" [orphan] forall (v1 :: GHC.Classes.Eq
+                                                         GHC.Types.Int)
+                                                (v :: GHC.Classes.Eq GHC.Types.Int)
+  GHC.Classes.$fEq(,) @ GHC.Types.Int @ GHC.Types.Int v v1
+  = Main.$fEqUnits_$s$fEq(,)1
+"SPEC/Main $fEq(,) @ Species @ Int" forall (v1 :: GHC.Classes.Eq
+                                                    GHC.Types.Int)
+                                           (v :: GHC.Classes.Eq Main.Species)
+  GHC.Classes.$fEq(,) @ Main.Species @ GHC.Types.Int v v1
+  = Main.$fEqUnits_$s$fEq(,)
+"SPEC/Main $fEq(,)_$c/= @ Int @ Int" [orphan] forall ($dEq1 :: GHC.Classes.Eq
+                                                                 GHC.Types.Int)
+                                                     ($dEq :: GHC.Classes.Eq GHC.Types.Int)
+  GHC.Classes.$fEq(,)_$c/= @ GHC.Types.Int @ GHC.Types.Int $dEq $dEq1
+  = Main.$fEqUnits_$s$fEq(,)_$c/=1
+"SPEC/Main $fEq(,)_$c/= @ Species @ Int" forall ($dEq1 :: GHC.Classes.Eq
+                                                            GHC.Types.Int)
+                                                ($dEq :: GHC.Classes.Eq Main.Species)
+  GHC.Classes.$fEq(,)_$c/= @ Main.Species @ GHC.Types.Int $dEq $dEq1
+  = Main.$fEqUnits_$s$fEq(,)_$c/=
+"SPEC/Main $fEqMap_$c/= @ (Int, Int) @ (Species, Health)" forall ($dEq1 :: GHC.Classes.Eq
+                                                                             (Main.Species,
+                                                                              Main.Health))
+                                                                 ($dEq :: GHC.Classes.Eq
+                                                                            (GHC.Types.Int,
+                                                                             GHC.Types.Int))
+  Data.Map.Internal.$fEqMap_$c/= @ (GHC.Types.Int, GHC.Types.Int)
+                                 @ (Main.Species, Main.Health)
+                                 $dEq
+                                 $dEq1
+  = Main.$fEqUnits_$s$fEqMap_$c/=
+"SPEC/Main $fEqVector @ (Vector Char)" [orphan] forall (v :: GHC.Classes.Eq
+                                                               (Data.Vector.Vector GHC.Types.Char))
+  Data.Vector.$fEqVector @ (Data.Vector.Vector GHC.Types.Char) v
+  = Main.$s$fEqVector
+"SPEC/Main $fEqVector_$c/= @ (Vector Char)" [orphan] forall ($dEq :: GHC.Classes.Eq
+                                                                       (Data.Vector.Vector
+                                                                          GHC.Types.Char))
+  Data.Vector.$fEqVector_$c/= @ (Data.Vector.Vector GHC.Types.Char)
+                              $dEq
+  = Main.$s$fEqVector_$s$fEqVector_$c/=
+"SPEC/Main $fEqVector_$c== @ (Vector Char)" [orphan] forall ($dEq :: GHC.Classes.Eq
+                                                                       (Data.Vector.Vector
+                                                                          GHC.Types.Char))
+  Data.Vector.$fEqVector_$c== @ (Data.Vector.Vector GHC.Types.Char)
+                              $dEq
+  = Main.$s$fEqVector_$s$fEqVector_$c==1
+"SPEC/Main $fEqVector_$c== @ Char" [orphan] forall ($dEq :: GHC.Classes.Eq
+                                                              GHC.Types.Char)
+  Data.Vector.$fEqVector_$c== @ GHC.Types.Char $dEq
+  = Main.$s$fEqVector_$s$fEqVector_$c==
+"SPEC/Main $fFunctorReaderT @ IO _" [orphan] forall @ r
+                                                    (v :: GHC.Base.Functor GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fFunctorReaderT @ GHC.Types.IO @ r v
+  = Main.$s$fApplicativeReaderT_$s$fFunctorReaderT @ r
+"SPEC/Main $fFunctorReaderT_$c<$ @ IO _" [orphan] forall @ r
+                                                         ($dFunctor :: GHC.Base.Functor
+                                                                         GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fFunctorReaderT_$c<$ @ GHC.Types.IO
+                                                   @ r
+                                                   $dFunctor
+  = Main.$s$fApplicativeReaderT_$s$fFunctorReaderT_$c<$ @ r
+"SPEC/Main $fFunctorReaderT_$cfmap @ IO _" [orphan] forall @ r
+                                                           ($dFunctor :: GHC.Base.Functor
+                                                                           GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fFunctorReaderT_$cfmap @ GHC.Types.IO
+                                                     @ r
+                                                     $dFunctor
+  = Main.$s$fApplicativeReaderT_$s$fFunctorReaderT_$cfmap @ r
+"SPEC/Main $fMonadIOReaderT @ IO _" [orphan] forall @ r
+                                                    (v :: Control.Monad.IO.Class.MonadIO
+                                                            GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fMonadIOReaderT @ GHC.Types.IO @ r v
+  = Main.$s$fMonadIOReaderT @ r
+"SPEC/Main $fMonadReaderT @ IO _" [orphan] forall @ r
+                                                  (v :: GHC.Base.Monad GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fMonadReaderT @ GHC.Types.IO @ r v
+  = Main.$s$fMonadIOReaderT_$s$fMonadReaderT @ r
+"SPEC/Main $fMonadReaderT_$c>>= @ IO _" [orphan] forall @ r
+                                                        ($dMonad :: GHC.Base.Monad GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fMonadReaderT_$c>>= @ GHC.Types.IO
+                                                  @ r
+                                                  $dMonad
+  = Main.$s$fMonadIOReaderT_$s$fMonadReaderT_$c>>= @ r
+"SPEC/Main $fMonadReaderT_$cfail @ IO _" [orphan] forall @ r
+                                                         ($dMonad :: GHC.Base.Monad GHC.Types.IO)
+  Control.Monad.Trans.Reader.$fMonadReaderT_$cfail @ GHC.Types.IO
+                                                   @ r
+                                                   $dMonad
+  = Main.$s$fMonadIOReaderT_$s$fMonadReaderT_$cfail @ r
+"SPEC/Main $fOrd(,) @ Int @ Int" [orphan] forall (v1 :: GHC.Classes.Ord
+                                                          GHC.Types.Int)
+                                                 (v :: GHC.Classes.Ord GHC.Types.Int)
+  GHC.Classes.$fOrd(,) @ GHC.Types.Int @ GHC.Types.Int v v1
+  = Main.$fOrdUnits_$s$fOrd(,)1
+"SPEC/Main $fOrd(,) @ Species @ Int" forall (v1 :: GHC.Classes.Ord
+                                                     GHC.Types.Int)
+                                            (v :: GHC.Classes.Ord Main.Species)
+  GHC.Classes.$fOrd(,) @ Main.Species @ GHC.Types.Int v v1
+  = Main.$fOrdUnits_$s$fOrd(,)
+"SPEC/Main $fOrdSet @ (Int, Int)" [orphan] forall (v :: GHC.Classes.Ord
+                                                          (GHC.Types.Int, GHC.Types.Int))
+  Data.Set.Internal.$fOrdSet @ (GHC.Types.Int, GHC.Types.Int) v
+  = Main.$s$fOrdSet
+"SPEC/Main $fOrd[] @ (Int, Int)" [orphan] forall (v :: GHC.Classes.Ord
+                                                         (GHC.Types.Int, GHC.Types.Int))
+  GHC.Classes.$fOrd[] @ (GHC.Types.Int, GHC.Types.Int) v
+  = Main.$s$fOrd[]
+"SPEC/Main $fShow(,) @ Int @ Int" [orphan] forall (v1 :: GHC.Show.Show
+                                                           GHC.Types.Int)
+                                                  (v :: GHC.Show.Show GHC.Types.Int)
+  GHC.Show.$fShow(,) @ GHC.Types.Int @ GHC.Types.Int v v1
+  = Main.$fShowUnits_$s$fShow(,)1
+"SPEC/Main $fShow(,) @ Species @ Int" forall (v1 :: GHC.Show.Show
+                                                      GHC.Types.Int)
+                                             (v :: GHC.Show.Show Main.Species)
+  GHC.Show.$fShow(,) @ Main.Species @ GHC.Types.Int v v1
+  = Main.$fShowUnits_$s$fShow(,)
+"SPEC/Main $fShowVector @ (Vector Char)" [orphan] forall (v :: GHC.Show.Show
+                                                                 (Data.Vector.Vector
+                                                                    GHC.Types.Char))
+  Data.Vector.$fShowVector @ (Data.Vector.Vector GHC.Types.Char) v
+  = Main.$s$fShowVector1
+"SPEC/Main $fShowVector @ Char" [orphan] forall (v :: GHC.Show.Show
+                                                        GHC.Types.Char)
+  Data.Vector.$fShowVector @ GHC.Types.Char v = Main.$s$fShowVector
+"SPEC/Main fromList @ ((Int, Int), [(Int, Int)])" [orphan] forall ($dOrd1 :: GHC.Classes.Ord
+                                                                               ((GHC.Types.Int,
+                                                                                 GHC.Types.Int),
+                                                                                [(GHC.Types.Int,
+                                                                                  GHC.Types.Int)]))
+  Data.Set.Internal.fromList @ ((GHC.Types.Int, GHC.Types.Int),
+                                [(GHC.Types.Int, GHC.Types.Int)])
+                             $dOrd1
+  = Main.$sfromList
+"SPEC/Main fromList @ (Int, Int)" [orphan] forall ($dOrd1 :: GHC.Classes.Ord
+                                                               (GHC.Types.Int, GHC.Types.Int))
+  Data.Set.Internal.fromList @ (GHC.Types.Int, GHC.Types.Int) $dOrd1
+  = Main.$sfromList2
+"SPEC/Main fromList @ (Int, Int) _" [orphan] forall @ a
+                                                    ($dOrd1 :: GHC.Classes.Ord
+                                                                 (GHC.Types.Int, GHC.Types.Int))
+  Data.Map.Internal.fromList @ (GHC.Types.Int, GHC.Types.Int)
+                             @ a
+                             $dOrd1
+  = Main.$sfromList3 @ a
+"SPEC/Main fromList @ (Set (Int, Int))" [orphan] forall ($dOrd1 :: GHC.Classes.Ord
+                                                                     (Data.Set.Internal.Set
+                                                                        (GHC.Types.Int,
+                                                                         GHC.Types.Int)))
+  Data.Set.Internal.fromList @ (Data.Set.Internal.Set
+                                  (GHC.Types.Int, GHC.Types.Int))
+                             $dOrd1
+  = Main.$sfromList1
+"SPEC/Main fromList @ [(Int, Int)] _" [orphan] forall @ a
+                                                      ($dOrd1 :: GHC.Classes.Ord
+                                                                   [(GHC.Types.Int, GHC.Types.Int)])
+  Data.Map.Internal.fromList @ [(GHC.Types.Int, GHC.Types.Int)]
+                             @ a
+                             $dOrd1
+  = Main.$sfromList5 @ a
+"SPEC/Main showsPrec @ Vector @ (Vector Char)" [orphan] forall ($dShow :: GHC.Show.Show
+                                                                            (Data.Vector.Vector
+                                                                               GHC.Types.Char))
+                                                               ($dVector :: Data.Vector.Generic.Base.Vector
+                                                                              Data.Vector.Vector
+                                                                              (Data.Vector.Vector
+                                                                                 GHC.Types.Char))
+  Data.Vector.Generic.showsPrec @ Data.Vector.Vector
+                                @ (Data.Vector.Vector GHC.Types.Char)
+                                $dVector
+                                $dShow
+  = Main.$s$fShowVector_$sshowsPrec1
+"SPEC/Main showsPrec @ Vector @ Char" [orphan] forall ($dShow :: GHC.Show.Show
+                                                                   GHC.Types.Char)
+                                                      ($dVector :: Data.Vector.Generic.Base.Vector
+                                                                     Data.Vector.Vector
+                                                                     GHC.Types.Char)
+  Data.Vector.Generic.showsPrec @ Data.Vector.Vector
+                                @ GHC.Types.Char
+                                $dVector
+                                $dShow
+  = Main.$s$fShowVector_$sshowsPrec
+"SPEC/Main union @ (Int, Int)" [orphan] forall ($dOrd1 :: GHC.Classes.Ord
+                                                            (GHC.Types.Int, GHC.Types.Int))
+  Data.Set.Internal.union @ (GHC.Types.Int, GHC.Types.Int) $dOrd1
+  = Main.$sunion
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+

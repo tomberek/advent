@@ -1,0 +1,7 @@
+Seq	Host	Starttime	JobRuntime	Send	Receive	Exitval	Signal	Command
+1	:	1544919628.528	     2.661	0	56499	0	0	gawk -v test\=30 -f solve.sh input
+2	:	1544919628.530	     3.870	0	56499	0	0	gawk -v test\=31 -f solve.sh input
+3	:	1544919628.531	     3.859	0	56499	0	0	gawk -v test\=32 -f solve.sh input
+4	:	1544919628.533	     2.661	0	56499	0	0	gawk -v test\=33 -f solve.sh input
+5	:	1544919628.536	     3.746	0	51286	0	0	gawk -v test\=34 -f solve.sh input
+6	:	1544919628.538	     3.750	0	51286	0	0	gawk -v test\=35 -f solve.sh input

@@ -39,6 +39,42 @@ function set_cols(array) {
     cmd = "tput sgr0";
     cmd | getline array["reset"];
     close(cmd);
+
+
+    # black
+    cmd = "tput setab 0";
+    cmd | getline array["blackb"];
+    close(cmd);
+    # red
+    cmd = "tput setab 1";
+    cmd | getline array["redb"];
+    close(cmd);
+    # green
+    cmd = "tput setab 2";
+    cmd | getline array["greenb"];
+    close(cmd);
+    # yellow
+    cmd = "tput setab 3";
+    cmd | getline array["yellowb"];
+    close(cmd);
+    # blue
+    cmd = "tput setab 4";
+    cmd | getline array["blueb"];
+    close(cmd);
+    # magenta
+    cmd = "tput setab 5";
+    cmd | getline array["magentab"];
+    close(cmd);
+    # cyan
+    cmd = "tput setab 6";
+    cmd | getline array["cyanb"];
+    close(cmd);
+    # white
+    cmd = "tput setab 7";
+    cmd | getline array["whiteb"];
+    close(cmd);
+
+
 }
 BEGIN {
     set_cols(c)

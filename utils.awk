@@ -1,15 +1,18 @@
 
 @load "ordchr"
 @load "rwarray"
-@load "/nix/store/bn25s9fbvdyxfgl8c22xnr35jfzyf1n6-gawkextlib-unstable/lib/json.so"
-function printa(source, level,count){
+#@load "/nix/store/bn25s9fbvdyxfgl8c22xnr35jfzyf1n6-gawkextlib-unstable/lib/json.so"
+function printa(source, level,count, i, j, source_i){
     printf "%s%s\n", level, "{"
     level = level "\t"
-    for (i in source) {
+    asorti(source,source_i,"@ind_num_asc")
+    for (j in source_i) {
+        i = source_i[j]
         if (typeof(source[i]) == "array") {
+            printf "%s%s :\n", level, i
             count += printa(source[i], level)
         } else {
-            dest[i] = source[i]
+            #dest[i] = source[i]
 		    printf "%s%s :\t%s\n", level, i, source[i]
             count++
         }
@@ -108,3 +111,32 @@ function clamp(x,x_min,x_max){
     }
     return x
 }
+
+function get_arrow(){
+	printf "%s", "> "
+	# GET ARROW INPUT
+	cmd = "export escape_char=$(printf \"\\u1b\") ; read -rsn1 mode ; if [[ $mode == $escape_char ]]; then read -rsn2 mode ; fi ; case $mode in 'q') echo QUITTING ; exit ;; '[A') echo UP ;; '[B') echo DN ;; '[D') echo LEFT ;; '[C') echo RIGHT ;; *) >&2 echo 'ERR bad input' ;; esac"
+	cmd | getline temp
+	print temp
+	close(cmd)
+	return temp
+	
+	#while(0){
+		#input = get_arrow()
+		#switch(input){
+		#case "RIGHT":
+			#max_x+=1
+			#break
+		#case "LEFT":
+			#max_x-=1
+			#break
+		#case "DN":
+			#max_y+=1
+			#break
+		##case "UP":
+			#max_y-=1
+			#break
+		#}
+    #}
+}
+

@@ -1,0 +1,7 @@
+Configuring say-0.1.0.1...
+Preprocessing library for say-0.1.0.1..
+Building library for say-0.1.0.1..
+[1 of 2] Compiling Paths_say        ( .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/autogen/Paths_say.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Paths_say.o )
+[2 of 2] Compiling Say              ( src/Say.hs, .stack-work/dist/x86_64-linux/Cabal-2.2.0.1/build/Say.o )
+Installing library in /home/dev/.stack/snapshots/x86_64-linux/lts-12.23/8.4.4/lib/x86_64-linux-ghc-8.4.4/say-0.1.0.1-CU4snLBCz4PLeAOP3AGipX
+Registering library for say-0.1.0.1..

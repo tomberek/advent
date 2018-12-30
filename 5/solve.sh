@@ -7,6 +7,7 @@ true + /; exec -a "$0" gawk --lint -f "$0" -- "$@"; / { }
 @include "../color.awk"
 @include "../utils.awk"
 @load "ordchr"
+@load "json"
 
 # Recursive function, keeps reacting the types
 function go(value, leng       ,str,i,prev,prevI,output){
@@ -40,6 +41,7 @@ BEGIN {
     json_fromJSON("{\"a\":2,\"b\":3,\"c\":[1,23,4,5]}",json)
     print typeof(json) " " json["a"]
     printa(json,"")
+    exit
     print value
     split(value,value2)
     print go(value2)

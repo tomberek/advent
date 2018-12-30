@@ -1,0 +1,4 @@
+resolver: lts-12.23
+extra-deps:
+    - set-extra-1.4.1@sha256:c58aa620704f609f289953e7c1f9c1653fd1498f0984b0f03a3f8f38f7ed5a84
+

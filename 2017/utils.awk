@@ -1,8 +1,13 @@
 
 @load "ordchr"
 @load "rwarray"
-@load "/nix/store/bn25s9fbvdyxfgl8c22xnr35jfzyf1n6-gawkextlib-unstable/lib/json.so"
-function printa(source, level,count){
+# @load "/nix/store/bn25s9fbvdyxfgl8c22xnr35jfzyf1n6-gawkextlib-unstable/lib/json.so"
+
+function ltrim(s) { sub(/^[ \t\r\n]+/, "", s); return s }
+function rtrim(s) { sub(/[ \t\r\n]+$/, "", s); return s }
+function trim(s)  { return rtrim(ltrim(s)); }
+
+function printa(source, level,count, i){
     printf "%s%s\n", level, "{"
     level = level "\t"
     for (i in source) {
@@ -36,7 +41,7 @@ function join(_array, _start, _end, _sep,    _result, _i)
     if (_sep == "")
        _sep = " "
     else if (_sep == SUBSEP) # magic value
-       _sep = ""
+       _sep = SUBSEP
     _result = _array[_start]
     for (_i = _start + 1; _i <= _end; _i++)
         _result = _result _sep _array[_i]
